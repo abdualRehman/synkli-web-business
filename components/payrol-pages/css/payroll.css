@@ -1,0 +1,11 @@
+.payroll-card {
+  background-color: white;
+  min-height: 19vh;
+  width: 100%;
+  border-radius: 10px;
+}
+.payroll-text {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 12px;
+}

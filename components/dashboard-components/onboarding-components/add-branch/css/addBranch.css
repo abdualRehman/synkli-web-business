@@ -1,0 +1,56 @@
+.add-branch-btn {
+  background: var(--primary-bg-color);
+  font-family: var(--secondary-font);
+  font-size: var(--primary-font-size) !important;
+}
+
+.card-body {
+  font-family: var(--primary-font);
+}
+
+.card-body label {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size) !important;
+}
+
+.card-body .sub-head {
+  font-size: var(--secondary-font-size);
+  color: var(--secondary-bg-color);
+  display: block;
+}
+
+.branch-navigate {
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size) !important;
+  color: var(--secondary-bg-color);
+}
+
+.bn-black {
+  color: #000;
+}
+
+.branch-loader-space {
+  position: absolute;
+  left: 50%;
+}
+
+.add-branch {
+  height: 100vh;
+  position: relative;
+}
+
+.branch-location-loader {
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+}
+
+.not-found-message {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--size-2-5);
+  color: var(--secondary-bg-color);
+}

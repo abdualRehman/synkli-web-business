@@ -1,0 +1,26 @@
+.business-type .title {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 14px;
+}
+.business-type select {
+  border: 1px solid #979797;
+  color: #979797;
+  width: 100%;
+  height: 6vh;
+}
+.bt-inner {
+  height: 70vh;
+}
+.business-type .save-btn {
+  background: linear-gradient(
+    180.04deg,
+    #101828 1.28%,
+    #0d1b37 99.81%,
+    #0a1e46 99.96%
+  );
+  color: #fff;
+  font-family: "Fira Sans";
+  font-size: 17px;
+  font-weight: 500;
+}

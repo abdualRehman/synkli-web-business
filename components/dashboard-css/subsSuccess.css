@@ -1,0 +1,26 @@
+.success-upper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  height: 100%;
+  font-family: "Poppins";
+  font-weight: 700;
+}
+
+.continue button {
+  position: absolute;
+  left: 50%;
+  bottom: 1rem;
+  transform: translateX(-50%);
+  font-family: "Poppins";
+  font-weight: 500;
+  background: linear-gradient(
+    180.04deg,
+    #101828 1.28%,
+    #0d1b37 99.81%,
+    #0a1e46 99.96%
+  );
+  color: #fff;
+}

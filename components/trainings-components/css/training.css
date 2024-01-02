@@ -1,0 +1,15 @@
+.training-welcome-card {
+    background: var(--primary-bg-color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    box-shadow: 0 0 10px 0 rgba(190, 182, 182, 0.29);
+}
+
+.training-welcome-label {
+    font-family: var(--secondary-font);
+    font-weight: var(--primary-font-weight);
+    font-size: 1.3rem;
+}

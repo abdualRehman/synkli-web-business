@@ -1,0 +1,82 @@
+.add-roster-form-wrapper {
+  display: grid;
+  grid-template-columns: 40% 55%;
+  gap: 2rem;
+}
+.roster-note-wrapper {
+  min-height: 10vh;
+}
+.roster-calendar {
+  border: 1px solid #979797;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.roster-weekdays {
+  border-bottom: 1px solid #979797;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+.roster-weekdays div {
+  width: 100%;
+  min-height: 6vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.roster-day {
+  width: 100%;
+  min-height: 8vh;
+  background-color: #e4defb;
+  color: #672ae1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+.roster-days-container .start-date {
+  background: linear-gradient(
+    180.04deg,
+    #101828 1.28%,
+    #0d1b37 99.81%,
+    #0a1e46 99.96%
+  );
+  color: #fff;
+}
+.roster-days-container .end-date {
+  background: linear-gradient(
+    180.04deg,
+    #101828 1.28%,
+    #0d1b37 99.81%,
+    #0a1e46 99.96%
+  );
+  color: #fff;
+}
+.roster-apply-btn {
+  background: linear-gradient(
+    180.04deg,
+    #101828 1.28%,
+    #0d1b37 99.81%,
+    #0a1e46 99.96%
+  );
+  color: #fff;
+  font-family: "fira sans";
+  font-weight: 500;
+  min-height: 6vh;
+  padding: 0 3rem;
+  border-radius: 0.5rem;
+}
+.roster-cancel-btn {
+  border: 1px solid #979797;
+  border-radius: 0.5rem;
+  font-family: "fira sans";
+  font-weight: 500;
+  min-height: 6vh;
+  padding: 0 3rem;
+  border-radius: 0.5rem;
+}

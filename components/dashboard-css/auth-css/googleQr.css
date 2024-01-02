@@ -1,0 +1,45 @@
+.qr-code {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qr-code img {
+  width: 40%;
+}
+
+.qr-number {
+  font-family: var(--primary-font);
+  font-size: var(--size-2);
+  font-weight: var(--primary-font-weight);
+}
+
+.google-inner {
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: var(--secondary-font-size);
+}
+
+.cancel-btn {
+  border: 1px solid var(--secondary-bg-color);
+  color: var(--secondary-bg-color);
+  font-family: var(--secondary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+.enable-btn {
+  background: var(--primary-bg-color);
+  font-family: var(--secondary-font);
+  font-weight: var(--primary-font-weight);
+  color: #fff;
+  font-size: var(--primary-font-size) !important;
+}
+
+@media (max-width: 1000px) {
+  /* .google-inner {
+    font-size: 1rem;
+  } */
+}

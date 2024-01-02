@@ -1,0 +1,135 @@
+.clear-filter-btn {
+  background-color: #dbd4d4;
+  color: #000;
+  font-family: "fira sans";
+  font-weight: 400;
+  font-size: 0.7rem;
+}
+
+.emp-img-container {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.emp-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.emp-name {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 0.7rem;
+  color: #000;
+}
+
+.emp-email {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 0.6rem;
+  color: #000;
+}
+
+.assigned-tasks {
+  color: #99dd07;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: clamp(0.5rem, 0.55rem, 0.8rem);
+}
+
+.completed-tasks {
+  color: #a39e9e;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: clamp(0.5rem, 0.55rem, 0.8rem);
+}
+
+.delayed-tasks {
+  color: #e84646;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: clamp(0.5rem, 0.55rem, 0.8rem);
+}
+
+.emp-task-count {
+  color: #000;
+  font-weight: 500;
+  margin-top: 0.3rem;
+}
+
+.employees-list-card {
+  height: 39vmin;
+  width: 100%;
+  overflow: scroll;
+}
+
+.all-emp-wrapper {
+  background-color: #fff;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+}
+
+.employees-list-card::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+
+.employees-list-card::-webkit-scrollbar-thumb {
+  background-color: #b695f8;
+  width: 2px;
+  border-radius: 10px;
+}
+
+.employees-list-card::-webkit-scrollbar-thumb:hover {
+  background-color: #b695f8;
+}
+
+.emp-info-wrapper {
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  padding: 0.4rem;
+}
+
+.chart-title {
+  color: #101828;
+  font-family: "fira sans";
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.this-week {
+  height: 10px;
+  width: 10px;
+  background-color: #101828;
+}
+
+.pre-week {
+  height: 10px;
+  width: 10px;
+  background-color: #b695f8;
+}
+
+.refrenceNo {
+  border: 1px solid #b4b4b4;
+  border-radius: 13px;
+  background: whitesmoke;
+}
+
+.complete-status {
+  color: #78e799;
+  font-weight: 400;
+}
+
+
+.ref-input {
+  height: var(--size-6);
+  border: 1px solid #979797;
+  border-radius: 0.5rem;
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  background-color: #f5f5f5;
+  font-size: var(--primary-font-size);
+}

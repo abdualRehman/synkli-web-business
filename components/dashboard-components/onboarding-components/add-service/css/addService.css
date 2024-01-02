@@ -1,0 +1,143 @@
+.service button {
+  font-family: var(--secondary-font);
+  font-size: var(--primary-font-size) !important;
+}
+
+.service-body {
+  border: 1px solid #e4e1e1;
+}
+
+.service-body .title {
+  font-family: var(--primary-font);
+  font-size: var(--primary-font-size) !important;
+  font-weight: var(--bolder-font);
+}
+
+.service-body .sub-title {
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+  color: var(--secondary-bg-color);
+}
+
+.service-body .dollers {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+.service-body .legend {
+  background-color: #b695f8;
+  width: 100%;
+  min-height: var(--size-6);
+  font-family: var(--primary-font);
+  font-size: var(--secondary-font-size);
+  color: #fff;
+}
+
+.details-par {
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--secondary-font-size);
+}
+
+.service-info .title {
+  font-family: "Fira Sans";
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.service-form label {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+.service-form input {
+  border: 1px solid var(--secondary-bg-color);
+  width: 95%;
+  height: var(--size-6);
+  font-size: var(--secondary-font-size);
+}
+
+.service-form select {
+  border: 1px solid var(--secondary-bg-color);
+  width: 95%;
+  height: var(--size-6);
+  font-size: var(--secondary-font-size);
+  color: var(--secondary-bg-color);
+}
+
+.service-form textarea {
+  border: 1px solid var(--secondary-bg-color);
+  width: 95%;
+  height: var(--size-18);
+  font-size: var(--secondary-font-size);
+}
+
+.business-form-textarea {
+  border: 1px solid var(--secondary-bg-color);
+  width: 97% !important;
+  height: var(--size-15) !important;
+  font-size: var(--secondary-font-size);
+}
+
+.service-btn-wrapper button {
+  background: var(--primary-bg-color);
+  font-family: var(--secondary-font);
+  height: var(--size-6);
+  font-size: var(--primary-font-size) !important;
+  font-weight: var(--primary-font-weight);
+}
+
+@media (max-width: 1000px) {
+  /* .service-form label {
+    font-size: 1rem;
+  }
+
+  .service-form input {
+    font-size: 1rem;
+  }
+
+  .service-form select {
+    font-size: 1rem;
+  }
+
+  .service-form textarea {
+    font-size: 1rem;
+  } */
+}
+
+.service-small-loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.charges-input-container {
+  border: 1px solid #979797;
+  border-radius: 0.5rem;
+  height: var(--size-6);
+  overflow: hidden;
+  position: relative;
+}
+
+.charges-input {
+  border: none !important;
+  width: 100%;
+  /* Full width */
+  height: 100% !important;
+  object-fit: cover;
+  margin: 0 !important;
+
+  padding-left: 2rem !important;
+}
+
+.doller-sign {
+  position: absolute;
+  top: 50%;
+  left: 0.5rem;
+  transform: translateY(-50%);
+}

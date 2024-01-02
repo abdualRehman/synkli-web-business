@@ -1,0 +1,85 @@
+.login-step-five {
+  background-color: #fff;
+  border-radius: 15px;
+  background-image: var(--primary-bg-color);
+  background-position: bottom;
+  background-size: 100% 20px;
+  background-repeat: no-repeat;
+  padding: 1rem 1rem;
+  padding-bottom: 2rem;
+  margin-top: 1rem;
+  width: 40%;
+}
+
+.new-password {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 85vh;
+  font-family: var(--primary-font);
+  font-size: var(--primary-font-size);
+  font-weight: var(--primary-font-weight);
+}
+
+.set-text {
+  font-family: var(--primary-font);
+  font-size: var(--primary-font-size);
+  font-weight: var(--primary-font-weight);
+  color: var(--color-9);
+}
+
+.set-form label {
+  font-family: var(--primary-font);
+  font-size: var(--primary-font-size);
+  font-weight: var(--primary-font-weight);
+}
+
+.set-form input {
+  border: 1px solid var(--secondary-bg-color);
+  border-radius: 10px;
+  min-height: var(--size-6);
+  width: 100%;
+  font-size: var(--primary-font-size);
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+}
+
+.confirm-btn {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.confirm-btn button {
+  background: var(--primary-bg-color);
+  color: #fff;
+  font-family: var(--secondary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+  min-height: var(--size-6);
+}
+
+@media (max-width: 800px) {
+  .login-step-five {
+    width: 100%;
+    margin: 0;
+    margin-top: 1rem;
+  }
+
+  .login-step-five svg {
+    transform: scale(1.5);
+  }
+
+  /* .confirm-btn button {
+    font-size: 1.2rem;
+    padding: 0 7rem;
+    height: 48px;
+  }
+
+  .set-form label,
+  input {
+    font-size: 1rem;
+    height: 48px;
+  } */
+}

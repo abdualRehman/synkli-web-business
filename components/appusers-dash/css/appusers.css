@@ -1,0 +1,237 @@
+.app-users-jumbo {
+  width: 100%;
+}
+
+.sort-by {
+  width: 15%;
+  height: 5vh;
+  border: 1px solid #bbb;
+  border-radius: 9px;
+
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+  color: #979797;
+}
+
+.search-box {
+  position: relative;
+  width: 22%;
+  height: var(--size-6);
+}
+
+.search-box input[type="text"] {
+  padding-left: 40px;
+  /* Make space for the search icon */
+  width: 100%;
+  height: var(--size-6);
+  border-radius: 20px;
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+  color: #979797;
+}
+
+.search-box .search-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #ccc;
+}
+
+.c-table-head {
+  font-family: var(--primary-font);
+  font-weight: var(--bolder-font);
+  font-size: var(--primary-font-size);
+}
+
+.break-line {
+  border-top: 1px solid #bbb;
+}
+
+.user-img-container {
+  height: 50px;
+  width: 45px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.image-inside {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main-clients {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+.recently-added {
+  color: #979797;
+}
+
+.pagination {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pagination-btns button {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+  color: #979797;
+  border: 1px solid #979797;
+  padding: 5px 15px;
+  margin: 0px 5px;
+  border-radius: 5px;
+}
+
+.pagination-info {
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+.pagination-btns button:hover {
+  background-color: #b695f8;
+  color: #fff;
+}
+
+@media (max-width: 700px) {
+  .pagination {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+
+.pagination-btns .next-btn {
+  color: #000;
+}
+
+.jumbo-name {
+  font-family: var(--secondary-font);
+  font-size: var(--size-4-5);
+  font-weight: var(--bold-font);
+}
+
+.special-jumbo-text {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size) !important;
+}
+
+@media (max-width: 700px) {
+  .sort-by {
+    width: 50%;
+  }
+
+  .search-box {
+    width: 44%;
+  }
+}
+
+/* 
+@media (max-width: 1000px) {
+  .pagination {
+    font-size: 1rem;
+  }
+
+  .pagination-btns button {
+    font-size: 1rem;
+  }
+} */
+
+@media (max-width: 768px) {
+  .main-clients {
+    font-size: 10px;
+  }
+
+  /* 
+  .user-img-container {
+    width: 25px;
+    height: 25px;
+  } */
+}
+
+
+.app-user-name {
+  font-weight: var(--primary-font-weight);
+}
+
+.app-user-email {
+  font-weight: var(--primary-font-weight);
+  font-size: var(--secondary-font-size);
+}
+
+.app-user-type {
+  font-weight: 300;
+  font-size: 0.56rem;
+}
+
+.main-client {
+  background-color: #f1b4b4;
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--size-1-5);
+  border-radius: 0.2rem;
+  display: inline-block;
+  color: rgb(86, 110, 9);
+  padding: 0.2rem;
+}
+
+.p-client {
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--size-1-5);
+  border-radius: 0.2rem;
+  display: inline-block;
+  background-color: #f5d4ad;
+  color: rgb(86, 110, 9);
+  padding: 0.2rem;
+}
+
+.active-client {
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: 1.5vmin;
+  color: green;
+}
+
+.inactive-client {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 1.5vmin;
+  color: red;
+}
+
+.sort-users {
+  border: 1px solid var(--secondary-bg-color);
+  border-radius: 0.5rem;
+  height: var(--size-6);
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--secondary-font-size);
+}
+
+.sort-modal {
+  background-color: white;
+  box-shadow: var(--primary-shadow);
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--secondary-font-size);
+}
+
+.sort-txt:hover {
+  background-color: var(--third-bg-color);
+  transition: 0.5s ease;
+  cursor: pointer;
+  color: #fff;
+}

@@ -1,0 +1,219 @@
+.activity-container-wrapper {
+  overflow-y: scroll;
+  height: 90vh;
+}
+
+.add-task-form label {
+  font-family: var(--primary-font);
+  font-weight: var(--bolder-font);
+  font-size: var(--primary-font-size);
+}
+
+.add-task-form input {
+  width: 100%;
+
+  border-radius: 8px;
+  border: 1px solid #979797;
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+.add-task-container {
+  height: 90vh;
+  overflow-y: scroll;
+}
+
+.add-task-container::-webkit-scrollbar {
+  height: 1px;
+  width: 3px;
+}
+
+.add-task-container::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  width: 3px;
+  border-radius: 10px;
+}
+
+.add-task-container::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+}
+
+.add-task-edit {
+  height: 40vh;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+.add-task-container .ql-toolbar {
+  display: none;
+  /* Hide the toolbar */
+}
+
+.add-task-container .ql-editor {
+  height: 300px;
+  /* Adjust the height of the editor */
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+.add-task-file {
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+  background-color: #b695f8;
+  color: white;
+  border-radius: 10px;
+}
+
+.add-client-wrapper {
+  border: 1px solid #979797;
+  border-radius: 10px;
+  width: 100%;
+  height: 6vh;
+  position: relative;
+}
+
+.add-client-action {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.task-add-btn-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.task-add-btn-wrap button {
+  background: var(--primary-bg-color);
+  color: #fff;
+  font-family: var(--secondary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+
+  margin-bottom: 10px;
+  padding: 0.5rem 5rem;
+  border-radius: 0.3rem;
+}
+
+@media (max-width: 1000px) {
+
+  /* .task-add-btn-wrap button,
+  .add-task-form input,
+  .add-task-form label,
+  .add-task-form textarea,
+  .add-task-file {
+    font-size: 1rem;
+  } */
+}
+
+.checklist-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.add-item-area {
+  border: 1px solid #979797;
+  width: 100%;
+  height: 10vh;
+  margin-top: 0.5rem;
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+  overflow: hidden;
+  /* Added overflow hidden to hide overflowing animations */
+  border-radius: 0.5rem;
+}
+
+.add-item-area:focus {
+  outline: none;
+}
+
+.check-item-name {
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+.bolder-label {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--size-2-5);
+}
+
+.lighter-label {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+.select-employee-wrapper {
+  position: relative;
+  border: 1px solid #979797;
+  border-radius: 0.7rem;
+  height: 35px;
+  width: 100%;
+  /* Both divs take up 100% width on small screens */
+  overflow: hidden;
+}
+
+.select-employee-select {
+  border: none !important;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 0 1rem;
+  outline: none;
+}
+
+.selected-employees {
+  position: absolute;
+  top: 50%;
+  left: 0.5rem;
+  transform: translateY(-50%);
+  z-index: 9;
+}
+
+.select-hider {
+  width: 50%;
+  height: 10vh;
+  position: absolute;
+  top: 0;
+  background-color: white;
+  z-index: 8;
+}
+
+.option-more {
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--secondary-font-size);
+
+}
+
+.checklist-cancel-btn {
+  border: 1px solid #0d1b37;
+  border-radius: 0.5rem;
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+  color: #0d1b37;
+}
+
+.checklist-name-div {
+  border: 1px solid #979797;
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 0.8rem;
+  width: 90%;
+}

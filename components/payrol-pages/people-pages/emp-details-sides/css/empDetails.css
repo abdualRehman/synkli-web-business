@@ -1,0 +1,260 @@
+.personal-input {
+  border: 1px solid #979797;
+  border-radius: 0.7rem;
+  width: 100%;
+  min-height: 6vh;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 0.75rem;
+  padding: 0 0.5rem;
+}
+
+.emp-details-save-btn {
+  background: linear-gradient(180.04deg,
+      #101828 1.28%,
+      #0d1b37 99.81%,
+      #0a1e46 99.96%);
+  color: #fff;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 0.75rem;
+  min-height: 6vh;
+  padding: 0 3rem;
+  border-radius: 0.7rem;
+}
+
+.emp-details-close-btn {
+  border: 1px solid #979797;
+  color: #979797;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 0.75rem;
+  min-height: 6vh;
+  padding: 0 3rem;
+  border-radius: 0.7rem;
+}
+
+.bank-and-super-inputs {
+  display: grid;
+  grid-template-columns: 45% 25% 25%;
+  gap: 0.7rem;
+}
+
+.b-s-input {
+  border: 1px solid #979797;
+  border-radius: 0.7rem;
+  min-height: 6vh;
+  width: 100%;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 0.75rem;
+  padding: 0 0.6rem;
+}
+
+.b-s-title {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+
+.b-s-light-text {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+
+.b-s-search-btn {
+  background: linear-gradient(180.04deg,
+      #101828 1.28%,
+      #0d1b37 99.81%,
+      #0a1e46 99.96%);
+  color: #fff;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 0.75rem;
+  min-height: 6vh;
+  padding: 0 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.leave-loading-container {
+  border: 1px solid #979797;
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 6vh;
+  position: relative;
+}
+
+.leave-loading-input {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 0.75rem;
+  padding: 0 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.leave-loading-btn {
+  position: absolute;
+  right: 0;
+  background: linear-gradient(180.04deg,
+      #101828 1.28%,
+      #0d1b37 99.81%,
+      #0a1e46 99.96%);
+  color: #fff;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 0.75rem;
+  min-height: 6vh;
+  border-radius: 0.5rem;
+  padding: 0 2rem;
+  border: 1px solid #0d1b37;
+}
+
+.add-ann-form select {
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+  height: var(--size-6);
+  border-radius: 0.5rem;
+}
+
+.pay-rate-container {
+  border: 1px solid #979797;
+  border-radius: 0.5rem;
+  width: 100%;
+  height: 6vh;
+  position: relative;
+}
+
+.pay-rate-input {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 0.75rem;
+  padding: 0 6rem;
+  border-radius: 0.5rem;
+}
+
+.pay-rate-btn {
+  position: absolute;
+  left: 0;
+  background: linear-gradient(180.04deg,
+      #101828 1.28%,
+      #0d1b37 99.81%,
+      #0a1e46 99.96%);
+  color: #fff;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 0.75rem;
+  min-height: 6vh;
+  border-radius: 0.5rem;
+  padding: 0 2rem;
+  border: 1px solid #0d1b37;
+}
+
+.ob-input {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 0.75rem;
+  padding: 0 3rem;
+  border-radius: 0.5rem;
+}
+
+.ob-btn {
+  position: absolute;
+  left: 0;
+  background: linear-gradient(180.04deg,
+      #101828 1.28%,
+      #0d1b37 99.81%,
+      #0a1e46 99.96%);
+  color: #fff;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 0.75rem;
+  min-height: 6vh;
+  border-radius: 0.5rem;
+  padding: 0 1rem;
+  border: 1px solid #0d1b37;
+}
+
+.template-input {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 0.75rem;
+  padding: 0 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.template-btn {
+  position: absolute;
+  right: 0;
+  background: linear-gradient(180.04deg,
+      #101828 1.28%,
+      #0d1b37 99.81%,
+      #0a1e46 99.96%);
+  color: #fff;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 0.75rem;
+  min-height: 6vh;
+  border-radius: 0.5rem;
+  padding: 0 1rem;
+  border: 1px solid #0d1b37;
+}
+
+.employment-dates {
+  width: 100%;
+}
+
+.employment-date {
+  width: 100%;
+}
+
+.opening-balance {
+  height: 70vh;
+  overflow-y: scroll;
+}
+
+.opening-balance::-webkit-scrollbar {
+  height: 1px;
+  width: 3px;
+}
+
+.opening-balance::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  height: 3px;
+  border-radius: 10px;
+}
+
+.opening-balance::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+}
+
+.template-top-grid {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.template-h-text {
+  min-height: 6vh;
+  display: flex;
+  align-items: center;
+}
+
+.template-blue-text {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 0.85rem;
+  color: #0a1e46;
+}

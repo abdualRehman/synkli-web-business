@@ -1,0 +1,57 @@
+.rental-carousal {
+  border-radius: 1rem;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 0.8vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  flex-direction: column;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  border-bottom: 3px solid #979797;
+}
+
+.deduction-address {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 110%;
+}
+
+.deduction-name {
+  color: #979797;
+  font-size: 90%;
+}
+.deduction-table-heading {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 80%;
+}
+.deduction-text {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 80%;
+}
+.deduction-counter {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 80%;
+}
+
+@media (max-width: 1000px) {
+  .rental-carousal {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .form-button-right-icon svg {
+    transform: scale(1.8);
+  }
+  .form-buttons-left-icon svg {
+    transform: scale(1.8);
+  }
+  .deduction-text,
+  .deduction-counter {
+    font-size: 1rem;
+  }
+}

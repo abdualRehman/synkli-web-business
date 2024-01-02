@@ -1,0 +1,57 @@
+.stripe-top .title {
+  font-family: "Fira Sans";
+  font-size: 18px;
+  font-weight: 700;
+}
+.stripe-top {
+  font-family: "Fira Sans";
+  font-size: 12px;
+  font-weight: 500;
+}
+.stripe-btn {
+  background: linear-gradient(
+    180.04deg,
+    #101828 1.28%,
+    #0d1b37 99.81%,
+    #0a1e46 99.96%
+  );
+  color: #fff;
+}
+
+.step.complete {
+  background: linear-gradient(
+    180.04deg,
+    #101828 1.28%,
+    #0d1b37 99.81%,
+    #0a1e46 99.96%
+  );
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  border-radius: 50%;
+  font-family: "Poppins";
+}
+
+.step.incomplete {
+  background-color: #979797;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  border-radius: 50%;
+  color: #fff;
+  font-family: "Poppins";
+}
+
+@media (max-width: 1000px) {
+  .step.complete,
+  .step.complete {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,48 @@
+.settings-input-wrapper {
+  background-color: white;
+  height: 5vh;
+  border-radius: 3em;
+  max-width: 25%;
+  overflow: hidden;
+  position: relative;
+}
+.settings-input {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: clamp(0.7rem, 0.85rem, 1rem);
+  padding: 0 3rem;
+}
+
+.settings-icon {
+  position: absolute;
+  left: 0.7rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.time-input {
+  width: 100%;
+  min-height: 6vh;
+  border: 1px solid #979797;
+  border-radius: 8px;
+  padding: 0 1em;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: clamp(0.7rem, 0.8rem, 1rem);
+}
+
+@media (max-width: 768px) {
+  .settings-input-wrapper {
+    max-width: 50%;
+  }
+  .settings-input {
+    font-size: 10px;
+  }
+}
+@media (max-width: 1000px) {
+  .settings-input {
+    font-size: 1rem;
+  }
+}

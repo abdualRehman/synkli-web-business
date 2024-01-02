@@ -1,0 +1,208 @@
+.dashboard-page {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.my-next-btn button {
+  background: var(--primary-bg-color);
+  margin-top: 2rem;
+  color: #fff;
+  height: var(--size-6);
+  font-family: var(--secondary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+.one-head h1 {
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: var(--size-2);
+}
+
+.start-subs {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--secondary-font-size);
+  margin: 0.5rem 1rem;
+  padding: 0.5rem 0.3rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  color: #000;
+}
+
+.complete_fa {
+  background: var(--primary-bg-color);
+  color: #fff;
+}
+
+.start-subs:hover {
+  border: 1px solid #0a1e46;
+}
+
+.one-text p {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  color: #000;
+  font-size: var(--secondary-font-size);
+}
+
+.two-factor {
+  border: 1px solid #0e0227;
+  font-family: var(--primary-font);
+  font-weight: 700;
+  font-size: var(--secondary-font-size);
+}
+
+.extra-security {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+.two-factor-text p {
+  color: var(--color-9);
+  font-family: var(--primary-font);
+  font-size: var(--secondary-font-size);
+  font-weight: var(--secondary-font-weight);
+}
+
+.authentication {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--secondary-font-size);
+  display: flex;
+  justify-content: space-between;
+  margin-right: 2rem;
+  align-items: center;
+}
+
+.auth-two {
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+}
+
+.auth-two button {
+  background: var(--primary-bg-color);
+  color: #fff;
+  font-size: var(--secondary-font-size);
+}
+
+.auth {
+  font-family: var(--primary-font);
+  font-size: var(--secondary-font-size);
+  font-weight: 600;
+}
+
+.selected-plan {
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: var(--secondary-font-size);
+}
+
+.plan-container h1 {
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: var(--size-1-5);
+}
+
+.doller {
+  font-family: var(--primary-font);
+  font-weight: 600;
+  color: #b695f8;
+  font-size: var(--size-3-5);
+}
+
+.plan-options p {
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+.free-text {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+.progress-bar-container {
+  width: 100%;
+  height: 6px;
+  background-color: #b695f8;
+  border-radius: 3px;
+  /* Added border radius for rounded corners */
+  overflow: hidden;
+  /* Added overflow hidden to hide overflowing animations */
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: var(--color-8);
+  border-radius: 3px;
+  /* Added border radius for rounded corners */
+  animation: progressAnimation 0.7s ease-in-out;
+  /* Added animation with 2 seconds duration */
+}
+
+@keyframes progressAnimation {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 10%;
+  }
+}
+
+.time-period {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--secondary-font-size);
+}
+
+.free-end {
+  font-family: var(--primary-font);
+  font-size: var(--secondary-font-size);
+  font-weight: var(--secondary-font-weight);
+  color: var(--secondary-bg-color);
+}
+
+.next-btn button {
+  background: var(--primary-bg-color);
+  font-family: var(--primary-font);
+}
+
+@media (max-width: 1000px) {
+  /* 
+  .start-subs,
+  .one-text p,
+  .two-factor-text p,
+  .extra-security,
+  .authentication {
+    font-size: 0.8rem;
+    padding: 0.3 0.4rem;
+  } */
+
+  /* 
+  .free-end {
+    font-size: 1rem;
+  } */
+}
+
+.spin-infinite {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  /* Set the duration of the animation */
+  animation: spin 2s infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

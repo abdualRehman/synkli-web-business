@@ -1,0 +1,66 @@
+.note-date-btn {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 12px;
+  border-radius: 10px;
+  border: 1px solid #979797;
+}
+
+.note-wrapper {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.note-wrapper .note-title {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+.note-wrapper .note-body {
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+.quill-editor {
+  height: 40vh;
+  border-radius: 20px;
+}
+
+.editor-container {
+  overflow: hidden;
+  border-radius: 10px;
+  border: 1px solid #979797;
+}
+
+.editor-container .ql-toolbar {
+  display: none;
+  /* Hide the toolbar */
+}
+
+.editor-container .ql-editor {
+  height: 300px;
+  /* Adjust the height of the editor */
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+/* 
+@media (max-width: 1000px) {
+  .note-wrapper .note-body,
+  .note-wrapper .note-title {
+    font-size: 1rem;
+  }
+} */
+
+.search-wrap-contain {
+  background-color: #fff;
+  height: var(--size-6);
+  width: 100%;
+  border: 1rem;
+  overflow: hidden;
+}

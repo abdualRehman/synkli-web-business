@@ -1,0 +1,234 @@
+.onboarding-container {
+  display: grid;
+  grid-template-columns: 11% 40% 36% 9%;
+}
+
+.onboarding-container .one {
+  background-color: #f5f5f5;
+}
+
+.onboarding-card-title {
+  font-family: var(--primary-font);
+  font-weight: 600;
+  font-size: var(--size-2);
+  color: #000;
+}
+
+.onboarding-container .two {
+  background-color: white;
+  min-height: 88vh;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  padding-bottom: 1rem;
+}
+
+.onboarding-container .three {
+  background-color: white;
+  min-height: 88vh;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  margin-left: 10px;
+  overflow-y: scroll;
+}
+
+.onboarding-container .three::-webkit-scrollbar {
+  width: 5px;
+}
+
+.onboarding-container .three::-webkit-scrollbar-thumb {
+  background-color: #8e8a8a;
+  width: 5px;
+  border-radius: 10px;
+}
+
+.onboarding-container .three::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+}
+
+.onboarding-container .four {
+  background-color: #f5f5f5;
+}
+
+.right-active {
+  position: absolute;
+  /* Position the overlay relative to the .content div */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  /* Set a high z-index value to make sure the overlay is displayed above other elements */
+}
+
+.add-steps * {
+  cursor: pointer;
+}
+
+.add-steps .light-o {
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--secondary-font-size);
+  color: var(--color-9);
+}
+
+.add-steps .title {
+  font-family: var(--primary-font);
+  font-weight: var(--bolder-font);
+  font-size: var(--primary-font-size) !important;
+}
+
+.add-blue {
+  background: var(--primary-bg-color);
+  color: #fff;
+}
+
+.onboarding-strip-title {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size) !important;
+}
+
+.add-blue .light-o {
+  color: #fff;
+  font-weight: var(--secondary-font-weight);
+  font-family: var(--primary-font);
+  font-size: var(--secondary-font-size);
+}
+
+.onboard-step {
+  border: 1px solid;
+}
+
+.onboard-step:hover {
+  border: 1px solid #0a1e46;
+  transition-duration: 50ms;
+}
+
+.main-profile-modal {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  bottom: 102%;
+  background-color: #fff;
+  color: #000 !important;
+  border-radius: 0.5rem;
+  z-index: 10;
+  transform: translate(-50%, 0);
+  left: 50%;
+
+}
+
+.arrow-down-modal {
+  background-color: white;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+  width: 12px;
+  height: 15px;
+
+  position: absolute;
+  top: 100%;
+  position: absolute;
+  top: 100%;
+  /* Center vertically */
+  left: 50%;
+  /* Center horizontally */
+  transform: translate(-50%, -50%) rotate(45deg);
+  /* Rotate the element 45 degrees and center it */
+
+}
+
+@media (max-width: 1000px) {
+  .onboarding-container {
+    display: block;
+    margin: 0;
+  }
+
+  .onboarding-container .two {
+    min-height: 60vh;
+  }
+}
+
+.skip-btn {
+  height: 5vh !important;
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Oswald:400);
+
+.navigation {
+  width: 100%;
+  color: #fff;
+  background-color: black;
+}
+
+.logout {
+  font-size: .8em;
+  font-family: 'Oswald', sans-serif;
+  position: relative;
+  right: -18px;
+  bottom: -4px;
+  overflow: hidden;
+  letter-spacing: 3px;
+  opacity: 0;
+  transition: opacity .45s;
+  color: #fff;
+  -webkit-transition: opacity .35s;
+
+}
+
+.button {
+  text-decoration: none;
+  float: right;
+  padding: 12px;
+  margin: 15px;
+  color: white;
+  width: 25px;
+  background-color: black;
+  transition: width .35s;
+  -webkit-transition: width .35s;
+  color: #fff;
+  overflow: hidden
+}
+
+a:hover {
+  width: 100px;
+}
+
+a:hover .logout {
+  opacity: .9;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logout-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.logout-button {
+  color: #fff;
+  background-color: #b695f8;
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+.progress-label {
+  font-family: var(--secondary-font);
+  font-weight: var(--bolder-font);
+  font-size: var(--primary-font-size);
+}
+
+.modal-border {
+  border-bottom: 0.5px solid #f0e9e9;
+}
+
+.dimmed-fonts label {
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--secondary-font-size);
+  color: #666;
+}

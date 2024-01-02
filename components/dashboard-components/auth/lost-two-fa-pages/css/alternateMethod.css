@@ -1,0 +1,58 @@
+.alternate-method {
+  background-color: #fff;
+  border-radius: 15px;
+  background-image: linear-gradient(
+    180.04deg,
+    #101828 1.28%,
+    #0d1b37 99.81%,
+    #0a1e46 99.96%
+  );
+  background-position: bottom;
+  background-size: 100% 20px;
+  background-repeat: no-repeat;
+  min-height: 85vh;
+  width: 38%;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.alternate-method .title {
+  font-family: "Fira Sans";
+  font-weight: 700;
+  font-size: 28px;
+}
+.a-use {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 13px;
+  color: #666666;
+}
+
+.a-label {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.upper-layer-a {
+  height: 80%;
+}
+
+.bottom-layer-a button {
+  background: linear-gradient(
+    180.04deg,
+    #101828 1.28%,
+    #0d1b37 99.81%,
+    #0a1e46 99.96%
+  );
+  color: #fff;
+  font-family: "Fira Sans";
+  transform: translateX(-50%);
+}
+
+@media (max-width: 768px) {
+  .alternate-method {
+    width: 100%;
+  }
+}

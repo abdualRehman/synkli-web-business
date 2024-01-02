@@ -1,0 +1,17 @@
+.settings-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: var(--primary-shadow);
+}
+
+.settings-card:hover {
+    background-color: #eceaea;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.step-head {
+    font-family: var(--primary-font);
+    font-weight: var(--bolder-font);
+    font-size: var(--primary-font-size);
+}

@@ -1,0 +1,99 @@
+.reports-op-container select {
+  background-color: #f5f5f5;
+  color: #979797;
+  height: 5.5vh;
+}
+
+.input-date-container input {
+  border: 1px solid #979797;
+  background-color: #f5f5f5;
+  height: 5vh;
+  border-radius: 8px;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 0.75rem;
+  color: #979797;
+}
+
+.reports-card {
+  background-color: #b695f8;
+  height: 16vh;
+  width: 100%;
+  color: #fff;
+  border-radius: 0.625 rem;
+  overflow: hidden;
+}
+.card-icon {
+  position: absolute;
+  right: -3rem;
+  bottom: -3rem;
+}
+.first-card-icon {
+  position: absolute;
+  right: -5rem;
+  bottom: -5rem;
+}
+
+.report-card-number {
+  font-family: "poppins";
+  font-weight: 700;
+  font-size: 1.063rem;
+}
+
+.report-card-text {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 0.938rem;
+  position: absolute;
+  bottom: 15px;
+}
+
+.reports-cards .parent-container {
+  position: relative;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.reports-cards .icon-container {
+  position: absolute;
+  right: -20%;
+  bottom: -20%;
+  width: 40%;
+  height: 40%;
+}
+
+.reports-cards .icon {
+  width: 100%;
+  height: 100%;
+  background-color: red; /* Replace with your desired icon styling */
+}
+
+.task-heading {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 12px;
+}
+.task-table {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+
+@media (max-width: 1000px) {
+  .reports-op-container select,
+  .input-date-container input {
+    font-size: 1rem;
+  }
+  .my-reports-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .reports-card svg {
+    transform: scale(1.5);
+  }
+  .task-heading,
+  .task-table {
+    font-size: 1rem;
+  }
+}

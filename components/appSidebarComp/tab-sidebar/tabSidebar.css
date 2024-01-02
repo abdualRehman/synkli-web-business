@@ -1,0 +1,40 @@
+.tab-sidebar {
+  position: fixed;
+  min-width: 20%;
+  top: 0;
+  z-index: 999;
+  height: 100vh;
+}
+.tab-sidebar-main {
+  background: linear-gradient(
+    180.04deg,
+    #101828 1.28%,
+    #0d1b37 99.81%,
+    #0a1e46 99.96%
+  );
+  color: #fff;
+  width: 100%;
+  padding-top: 5rem;
+  height: 100vh;
+}
+.tab-sidebar-main svg {
+  fill: white;
+}
+.tab-buttons div:hover {
+  background-color: #0a1e46;
+  transition: 0.5s ease-in;
+  border-radius: 0.5rem;
+}
+.tab-buttons div {
+  font-family: "poppins";
+  font-weight: 400;
+}
+.cross-icon {
+  position: absolute;
+  right: 0.7rem;
+  top: 0.5rem;
+  cursor: pointer;
+}
+.cross-icon svg {
+  fill: white;
+}

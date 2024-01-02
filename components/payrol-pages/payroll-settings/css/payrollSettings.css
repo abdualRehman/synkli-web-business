@@ -1,0 +1,48 @@
+.payroll-settings-text {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: #666;
+}
+.o-s-bottom-buttons {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.o-d-weak-label {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 0.76rem;
+}
+.leave-settings-weak-text {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+.linked-agent-title {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 0.85rem;
+}
+.linked-agent-btn button {
+  background: linear-gradient(
+    180.04deg,
+    #101828 1.28%,
+    #0d1b37 99.81%,
+    #0a1e46 99.96%
+  );
+  color: #fff;
+  font-family: "fira sans";
+  font-weight: 500;
+  font-size: 0.8rem;
+  min-height: 6vh;
+  border-radius: 0.5rem;
+  padding: 0 0.5rem;
+}
+.linked-agent-close-btn {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}

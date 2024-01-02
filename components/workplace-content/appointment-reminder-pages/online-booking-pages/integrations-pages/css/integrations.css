@@ -1,0 +1,25 @@
+.integrations-card {
+  background-color: white;
+  border-radius: 10px;
+  min-height: 20vh;
+}
+.meeting-title {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 1vw;
+}
+.meeting-text {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 0.8vw;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .meeting-title {
+    font-size: 2.5vw;
+  }
+  .meeting-text {
+    font-size: 2vw;
+  }
+}

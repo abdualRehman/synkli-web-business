@@ -1,0 +1,172 @@
+.left-side {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+.right-side {
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+.inner-right {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  top: 0;
+  height: 100vh;
+  overflow-y: scroll;
+  z-index: 5;
+}
+
+.inner-right::-webkit-scrollbar {
+  width: 3px;
+}
+
+.inner-right::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  width: 5px;
+  border-radius: 10px;
+}
+
+.inner-right::-webkit-scrollbar-thumb:hover {
+  background-color: #ccc;
+}
+
+.add-p-side {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 999;
+  top: 0;
+}
+
+.add-detail .title {
+  font-family: var(--secondary-font);
+  font-weight: var(--bold-font);
+  font-size: var(--size-3-5);
+}
+
+.profile-image-container {
+  position: relative;
+
+  width: 120px;
+  height: 120px;
+  background-color: #f2f2f2;
+  border-radius: 50%;
+}
+
+.profile-image-container .img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.profile-image-container .camera-svg {
+  position: absolute;
+  position: absolute;
+  bottom: 7px;
+  /* Adjust the distance from the bottom as needed */
+  left: 85%;
+  width: 24px;
+  /* Set the width of the SVG icon as needed */
+  height: 24px;
+  transform: translateX(-50%);
+  /* Set the height of the SVG icon as needed */
+
+  cursor: pointer;
+  /* Add a pointer cursor to the SVG icon */
+}
+
+.profile-info-container label {
+  font-family: var(--primary-font);
+  font-weight: var(--bolder-font);
+  font-size: var(--primary-font-size);
+}
+
+.profile-info-container input {
+  font-family: var(--primary-font);
+  border: 1px solid var(--secondary-bg-color);
+
+  height: var(--size-6);
+}
+
+.custom-toast {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+}
+
+.custom-toast-body {
+  font-family: "poppins";
+  font-weight: 500;
+}
+
+.family-input {
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+  height: var(--size-6);
+}
+
+@media (max-width: 950px) {
+  .right-side {
+    grid-column-start: 1;
+    grid-column-end: 12;
+  }
+}
+
+.profile-picker-parent {
+  width: 100%;
+  height: var(--size-6);
+  overflow: hidden;
+  border: 1px solid #979797;
+  border-radius: 0.7rem;
+}
+
+.profile-picker {
+  border: none !important;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.profile-container {
+  display: inline-block;
+  position: relative;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.profile-image-edit {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+/* 
+.selected-profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+} */
+
+
+.selected-date {
+  border: 1px solid var(--secondary-bg-color);
+  border-radius: 0.5rem;
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+  height: var(--size-6);
+
+}

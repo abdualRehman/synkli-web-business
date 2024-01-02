@@ -1,0 +1,40 @@
+.reports-card-strip {
+    background-color: var(--seventh-bg-color);
+    padding: 3.5vmin 1.5vmin;
+    border-radius: 1.5vmin;
+}
+
+.reports-card-strip-one {
+    background-color: var(--fourth-bg-color);
+    padding: 3.5vmin 1.5vmin;
+    border-radius: 1.5vmin;
+}
+
+.reports-card-strip-two {
+    background-color: var(--sixth-bg-color);
+    padding: 3.5vmin 1.5vmin;
+    border-radius: 1.5vmin;
+}
+
+.reports-card-strip-three {
+    background-color: var(--fifth-bg-color);
+    padding: 3.5vmin 1.5vmin;
+    border-radius: 1.5vmin;
+}
+
+.grid-container3 {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .grid-container3 {
+        display: block;
+
+    }
+
+    .grid-item3 {
+        margin-top: 1vmin;
+    }
+}

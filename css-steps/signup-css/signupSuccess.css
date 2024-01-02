@@ -1,0 +1,63 @@
+.sign-up-success {
+  position: relative;
+  background-color: #fff;
+  border-radius: 15px;
+  background-image: var(--primary-bg-color);
+  background-position: bottom;
+  background-size: 100% 20px;
+  background-repeat: no-repeat;
+  height: 83vh;
+  overflow: auto;
+  width: 82%;
+  margin-left: 50px;
+  font-family: var(--primary-font);
+
+}
+
+.signup-success-container {
+  height: 85vh;
+}
+
+.signup-success-page {
+  background-color: #fff;
+  border-radius: var(--size-2);
+  background-image: var(--primary-bg-color);
+  background-position: bottom;
+  background-size: 100% 20px;
+  background-repeat: no-repeat;
+  padding-bottom: 2rem;
+  width: 40%;
+
+  color: #000;
+}
+
+.s-title {
+  font-size: var(--size-6);
+  font-weight: 700;
+  font-family: var(--secondary-font);
+  margin-top: 15px;
+}
+
+.s-text {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-size);
+}
+
+.s-btn-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.s-btn-wrapper button {
+  background: var(--primary-bg-color);
+  color: #fff;
+  font-family: var(--primary-font);
+
+}
+
+@media(max-width : 1000px) {
+  .signup-success-page {
+    width: 60%;
+  }
+}

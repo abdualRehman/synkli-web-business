@@ -1,0 +1,174 @@
+.profile-information {
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #fff;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+/* @media (max-width: 1000px) {
+  .profile-info-card {
+    flex-direction: column;
+  }
+} */
+
+.profile-image-wrapper {
+  width: 100px;
+  height: 100px;
+  position: relative;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-names {
+  font-family: var(--primary-font);
+  font-weight: var(--bolder-font);
+  font-size: var(--primary-font-size) !important;
+}
+
+.profile-emails {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size) !important;
+}
+
+.profile-dates {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size) !important;
+}
+
+.edit-input-wrapper {
+  border: 1px solid #bbb;
+  height: 5vh;
+  border-radius: 10px;
+}
+
+.edit-input-wrapper input {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.edit-input-icon {
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.p-dates-container {
+  border: 1px solid #bbb;
+  height: 5vh;
+  border-radius: 10px;
+}
+
+.p-dates-container input {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.edit-cancel-btn {
+  background-color: #ebebeb;
+  color: #979797;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.edit-save-btn {
+  background: linear-gradient(
+    180.04deg,
+    #101828 1.28%,
+    #0d1b37 99.81%,
+    #0a1e46 99.96%
+  );
+  color: white;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.change-password-form label {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.pass-input-wrapper {
+  width: 100%;
+  height: 6vh;
+  border: 1px solid #979797;
+  border-radius: 10px;
+  position: relative;
+}
+
+.absolute-lock {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.pass-input-wrapper input {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 12px;
+  padding: 0px 40px;
+}
+
+.top-pass {
+  height: 90vh;
+}
+
+.deactivate-acc {
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.de-warning {
+  background-color: white;
+  border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+  .de-warning {
+    padding: 10px;
+    padding-top: 10%;
+  }
+}
+
+.warning-text {
+  font-family: "Fira Sans";
+  font-weight: 700;
+  font-size: 22px;
+  color: #ff4444;
+}
+
+.warning-p {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.warning-p p:nth-child(2) {
+  text-align: center;
+}
+
+.warning-p p:nth-child(3) {
+  text-align: center;
+}
+
+.warning-p p:nth-child(5) {
+  text-align: center;
+}

@@ -1,0 +1,336 @@
+.tasks-recent-activity-btn {
+  font-family: var(--secondary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+  background-color: #e8e5e5;
+  border: 1px solid #e8e5e5;
+  border-radius: 10px;
+  padding: 0.4rem;
+  margin-top: 10px;
+}
+
+.tasks-operations-container select {
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+  color: #979797;
+  height: var(--size-6);
+  background-color: #f6f4f4;
+}
+
+.task-sort-date-wrapper {
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+  color: #979797;
+  border: 1px solid #979797;
+  height: var(--size-6);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.tasks-reports-btn {
+  background: var(--primary-bg-color);
+  color: #fff;
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+  height: var(--size-6);
+  margin-top: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.all-tasks-container {
+  display: flex;
+  overflow-y: hidden;
+  height: 100vh;
+  overflow-x: scroll;
+  gap: 10px;
+
+}
+
+.task-number {
+  width: 23%;
+  flex-shrink: 0;
+}
+
+@media (max-width: 1000px) {
+  .task-number {
+    width: 50%;
+    flex-shrink: 0;
+  }
+}
+
+.all-tasks-container::-webkit-scrollbar {
+  height: 3px;
+}
+
+.all-tasks-container::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  height: 8px;
+  border-radius: 10px;
+}
+
+.all-tasks-container::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+}
+
+.detail-images-container {
+  height: 25vh;
+  border-radius: 10px;
+
+  position: relative;
+}
+
+.detail-image-view {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.detail-left-arrow {
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  transform: translate(50%, -50%);
+}
+
+.detail-right-arrow {
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.detail-image-actions {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
+
+.detail-img-counter {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 10px;
+  color: white;
+  background-color: #979797;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail-image-attachment {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 10px;
+  background-color: rgba(0, 0, 255, 0.1);
+  color: rgb(116, 116, 171);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.detail-task-title {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--size-2);
+  color: #101828;
+}
+
+.d-holder {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+  color: #666;
+}
+
+.detail-description {
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+.post-comment {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.post-comment-child {
+  flex: 1;
+  flex: 0 0 10%;
+}
+
+post-comment-child-last {
+  flex: 1;
+  flex: 0 0 10%;
+}
+
+.post-comment-child-last button {
+  background: var(--primary-bg-color);
+  color: #fff;
+  font-family: var(--secondary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+  height: var(--size-6);
+  border-radius: 5px;
+  width: 100%;
+}
+
+.post-comment-child-wide {
+  flex: 0 0 75%;
+  border: 1px solid #bbb;
+  overflow: hidden;
+  border-radius: 5px;
+  height: var(--size-6);
+  position: relative;
+}
+
+.post-comment-child-wide input {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+.comment-pic-wrapper {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.comment-pic {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.comment-icon {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.comment-container {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  gap: 10px;
+}
+
+.comment-picture-wrapper {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.comment-picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.comment-name {
+  font-family: var(--secondary-font);
+  font-weight: var(--bolder-font);
+  font-size: var(--primary-font-size);
+}
+
+.comment-text {
+  width: 100%;
+  background-color: #ebe6f6;
+  border-radius: 5px;
+}
+
+.comment-text-main {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+.comment-actions {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+  color: #979797;
+}
+
+.comment-download {
+  background-color: #b695f8;
+  color: white;
+
+  overflow: hidden;
+  border-radius: 5px;
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+@media (max-width: 1000px) {
+  /* .tasks-recent-activity-btn {
+    font-size: 1rem;
+  } */
+
+  /* 
+  .tasks-reports-btn,
+  .comment-download,
+  .comment-text-main,
+  .d-holder,
+  .detail-description {
+    font-size: 1rem;
+  } */
+
+  .comment-pic-wrapper {
+    width: 50px;
+    height: 50px;
+  }
+
+  /* .post-comment-child-last button {
+    font-size: 1rem;
+  }
+
+  .post-comment-child-wide input {
+    font-size: 1rem;
+  } */
+
+  .post-comment-child-wide svg {
+    transform: scale(1.4);
+  }
+
+  /* .comment-actions,
+  .detail-img-counter,
+  .detail-image-attachment {
+    font-size: 0.9rem;
+  }
+
+  .comment-name,
+  .detail-task-title {
+    font-size: 1.2rem;
+  } */
+
+  .detail-images-container svg {
+    transform: scale(1.4);
+  }
+}
+
+
+.arrow-task {
+  mix-blend-mode: darken;
+  transform: rotate(50deg);
+}
+
+.pickDate {
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+}

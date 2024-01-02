@@ -1,0 +1,118 @@
+.search-input-container {
+  background-color: white;
+  border-radius: 30px;
+  width: 50%;
+  height: var(--size-6);
+  position: relative;
+  overflow: hidden;
+}
+
+.td-search-input {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+  padding: 0 2rem;
+}
+
+.td-search-input:focus {
+  outline: none;
+}
+
+.search-icon {
+  position: absolute;
+  left: 9px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.add-directory {
+  float: right;
+}
+
+.td-select select {
+  border-radius: 10px;
+  height: var(--size-6);
+  /* padding: 0 90px 0 10px;email length */
+  color: #979797;
+  background-color: #f5f5f5;
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+.td-generic button {
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+  background-color: #b695f8;
+  color: #fff;
+  height: var(--size-6);
+}
+
+@media (max-width: 700px) {
+  .td-jumbo {
+    display: flex;
+    flex-direction: column;
+    height: 22vh;
+  }
+}
+
+.tablet-table {
+  display: flex;
+  gap: 10px;
+  overflow: scroll;
+}
+
+
+
+.tablet-table::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 10px;
+  height: 3px;
+}
+
+.tablet-table::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.tablet-table::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+}
+
+
+
+
+.tablet-heading {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20% 20% 20% 20%;
+
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+/* .tablet-data {
+    overflow: scroll;
+} */
+.tablet-row {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20% 20% 20% 20%;
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+.my-table-line {
+  width: 180%;
+}
+
+@media (max-width: 1000px) {
+  /* .td-search-input,
+  .td-select select,
+  .td-generic button {
+    font-size: 1rem;
+  } */
+}

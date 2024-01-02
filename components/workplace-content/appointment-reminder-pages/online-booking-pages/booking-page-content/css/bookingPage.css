@@ -1,0 +1,124 @@
+.booking-page-main-heading {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: clamp(12px, 13px, 15px);
+}
+.booking-page-table {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: clamp(12px, 13px, 15px);
+}
+.booking-page-table-main {
+  height: 80vh;
+  position: relative;
+}
+.booking-page-pagination {
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+}
+
+.select-calendars-container {
+  border: 1px solid #979797;
+  height: 6vh;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+.calendar-select {
+  border: none;
+  border-radius: 10px;
+  height: 6vh;
+  object-fit: cover;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: clamp(11px, 12px, 14px);
+  color: #979797;
+  margin-top: 0;
+  padding-top: 0;
+}
+.calendar-select:focus {
+  outline: none;
+}
+.selected-calendars {
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.selected-calendar {
+  background-color: #b695f8;
+  color: #fff;
+  border-radius: 15px;
+  min-height: 4vh;
+  padding: 0 10px;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: clamp(11px, 12px, 14px);
+}
+.add-booking-height-container {
+  height: 80vh;
+  overflow-y: scroll;
+}
+.address-input {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: clamp(11px, 12px, 13px);
+  padding: 0 10px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.address-msg {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: clamp(9px, 10px, 11px);
+  color: #979797;
+}
+
+.add-booking-logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #ded4f1;
+  border: none;
+  outline: 1px dashed #979797;
+  padding: 5px;
+}
+.selected-file-show {
+  background-color: #b695f8;
+  color: #fff;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: clamp(10px, 12px, 14px);
+  border-radius: 10px;
+  width: 25%;
+  padding: 0 10px;
+  min-height: 4vh;
+}
+.cancel-booking-btn {
+  font-family: "fira sans";
+  font-weight: 500;
+  font-size: clamp(12px, 13px, 15px);
+  border: 1px solid #979797;
+  border-radius: 8px;
+  min-height: 6vh;
+  padding: 0 50px;
+  color: #979797;
+}
+.save-booking-btn {
+  background: linear-gradient(
+    180.04deg,
+    #101828 1.28%,
+    #0d1b37 99.81%,
+    #0a1e46 99.96%
+  );
+  color: #fff;
+  font-family: "fira sans";
+  font-weight: 500;
+  font-size: clamp(12px, 13px, 15px);
+  min-height: 6vh;
+  padding: 0 60px;
+  border-radius: 8px;
+}

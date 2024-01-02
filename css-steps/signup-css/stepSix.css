@@ -1,0 +1,91 @@
+.user-step-5 {
+  position: relative;
+  background-color: #fff;
+  border-radius: 15px;
+  background-image: linear-gradient(
+    180.04deg,
+    #101828 1.28%,
+    #0d1b37 99.81%,
+    #0a1e46 99.96%
+  );
+  background-position: bottom;
+  background-size: 100% 20px;
+  background-repeat: no-repeat;
+  min-height: 83vh;
+  overflow: auto;
+  width: 40%;
+  margin-left: 50px;
+  font-family: "Poppins";
+  font-family: "Poppins";
+}
+
+.user-step-5::-webkit-scrollbar {
+  width: 8px; /* set the width of the scrollbar */
+  background-color: #979797; /* set the background color of the scrollbar track */
+}
+
+.user-step-5::-webkit-scrollbar-thumb {
+  background-color: rgb(6, 6, 63);
+  border-radius: 6px;
+}
+
+.user-step-5::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(13, 13, 64);
+}
+
+.s5-title {
+  font-size: 31px;
+  font-weight: 700;
+  font-family: "Fira Sans";
+  margin-top: 15px;
+}
+.s5-date {
+  color: #979797;
+  margin-left: 6rem;
+}
+
+.s5-title-2 {
+  font-size: 31px;
+  font-weight: 700;
+  font-family: "Fira Sans";
+}
+.s5-date-2 {
+  color: #979797;
+}
+.tc-text {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 11px;
+  color: #666666;
+}
+
+.backBtn {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backBtn button {
+  border: 1px solid #979797;
+  border-radius: 10px;
+  color: #979797;
+  font-family: "Poppins";
+  font-weight: 400;
+  min-height: 6vh;
+}
+
+@media (max-width: 1000px) {
+  .user-step-5 {
+    width: 100%;
+    margin: 0;
+    margin-top: 1rem;
+  }
+  .tc-text {
+    font-size: 1rem;
+  }
+  .backBtn button {
+    font-size: 1.2rem;
+  }
+}

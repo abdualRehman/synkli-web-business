@@ -1,0 +1,59 @@
+.no-timesheet {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.no-timesheet-text {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 0.75rem;
+  color: #666;
+}
+.search-emp-layer {
+  width: 70%;
+}
+.time-input {
+  width: 100%;
+}
+.timesheet-input-btn {
+  padding: 0 1rem;
+}
+.bluetext {
+  color: #0a1e46;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 0.8rem;
+}
+.note-area-wrapper {
+  width: 100%;
+  min-height: 20vh;
+  border: 1px solid #979797;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  position: relative;
+}
+.note-text-area {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 0.75rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 0.5rem;
+}
+.note-text-area:focus {
+  outline: none;
+}
+.note-area-icon {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0.5rem;
+}
+.add-timesheet-wrapper {
+  height: 70vh;
+  overflow-y: scroll;
+}

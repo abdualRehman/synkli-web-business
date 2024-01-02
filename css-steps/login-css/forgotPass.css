@@ -1,0 +1,92 @@
+.login-welcome {
+  color: var(--color-9);
+  width: 100%;
+  font-size: var(--primary-font-size);
+}
+
+.forgotten-title {
+  font-family: "Fira Sans";
+  font-weight: bold;
+  font-size: 30px;
+  color: var(--primary-bg-color);
+}
+
+.forgotten-text {
+  color: var(--color-9);
+  width: 100%;
+  font-size: var(--primary-font-size);
+}
+
+.for-email label {
+  font-size: var(--primary-font-size);
+  font-weight: var(--primary-font-weight);
+  font-family: var(--primary-font);
+}
+
+.for-email input {
+  border: 1px solid var(--secondary-bg-color);
+  border-radius: 10px;
+  height: var(--size-6);
+  width: 90%;
+  font-size: var(--primary-font-size);
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--secondary-font-size);
+}
+
+.forgot-pass-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 85vh;
+}
+
+.login-step-two {
+  background-color: #fff;
+  border-radius: 15px;
+  background-image: var(--primary-bg-color);
+  background-position: bottom;
+  background-size: 100% 20px;
+  background-repeat: no-repeat;
+
+  width: 50%;
+  margin-left: 50px;
+  position: relative;
+  overflow: hidden;
+}
+
+.for-lower {
+  position: absolute;
+  bottom: 2rem;
+
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.for-lower button {
+  background: var(--primary-bg-color);
+  color: #fff;
+  font-family: var(--secondary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+  height: var(--size-6);
+}
+
+@media (max-width: 800px) {
+  .login-step-two {
+    width: 100%;
+    margin: 0;
+    margin-top: 1rem;
+  }
+
+  /* .forgotten-text,
+  .for-email label,
+  .for-email input,
+  .for-lower button {
+    font-size: 1rem;
+  }
+
+  .login-step-two svg {
+    transform: scale(1.5);
+  } */
+}

@@ -1,0 +1,10 @@
+.task-details-logs-btn {
+    background-color: #dbd4d4;
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 1.7vmin;
+    border-radius: 0.5rem;
+}
+.cross-text {
+    text-decoration: line-through;
+  }

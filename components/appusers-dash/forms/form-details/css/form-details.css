@@ -1,0 +1,117 @@
+.form-details-table {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 0.8rem;
+
+}
+
+.form-details-body {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 0.8rem;
+
+
+}
+
+
+
+.form-details-date {
+  color: #979797;
+}
+
+.attachments {
+  background: linear-gradient(180.04deg,
+      #101828 1.28%,
+      #0d1b37 99.81%,
+      #0a1e46 99.96%);
+  color: #fff;
+  font-family: "poppins";
+  font-weight: 300;
+  font-size: 0.6rem;
+  border-radius: 0.25rem;
+  padding: 0.2rem;
+}
+
+.share-modal {
+  background-color: #ffffff;
+  color: #000;
+  position: absolute;
+  /* Position the overlay relative to the .content div */
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Rotate the element 45 degrees and center it */
+  font-family: "poppins";
+  font-weight: 300;
+  font-size: 0.6rem;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  z-index: 9;
+}
+
+.share-text {
+  font-size: 1.3rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+
+
+
+.step-heading {
+  font-family: var(--secondary-font);
+  font-weight: var(--bolder-font);
+  font-size: var(--size-2);
+}
+
+@media(max-width : 800px) {
+  .form-details-table {
+    font-family: "poppins";
+    font-weight: 500;
+    font-size: 0.7rem;
+
+  }
+
+  .form-details-body {
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 0.7rem;
+
+
+  }
+}
+
+@media(max-width : 590px) {
+  .form-details-table {
+    font-family: "poppins";
+    font-weight: 500;
+    font-size: 0.65rem;
+
+  }
+
+  .form-details-body {
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 0.65rem;
+
+
+  }
+}
+
+.submited-forms {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+.option-label {
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--secondary-font-size);
+}
+
+.logs-finite {
+  height: 110vh;
+  width: 100%;
+  border: 1px solid #979797;
+}

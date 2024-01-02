@@ -1,0 +1,99 @@
+.bookings-inputs input {
+  border: 1px solid #979797;
+  border-radius: 10px;
+  color: #979797;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: clamp(10px, 12px, 14px);
+  background-color: #f5f5f5;
+
+  padding: 0.5rem;
+}
+.bookings-inputs label {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: clamp(11px, 12px, 14px);
+}
+.bookings-inputs select {
+  border: 1px solid #979797;
+  border-radius: 10px;
+  color: #979797;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: clamp(10px, 12px, 14px);
+  background-color: #f5f5f5;
+
+  padding: 0 10px;
+}
+.bookings-input-wrapper {
+  position: relative;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0.5rem;
+  overflow: hidden;
+}
+.bookings-input {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: clamp(11px, 12px, 14px);
+  padding: 0 30px;
+}
+.bookings-input-icon {
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.bookings-reset-btn {
+  background-color: #ebebeb;
+  color: #666;
+
+  padding: 0.7rem;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: clamp(11px, 12px, 14px);
+  border-radius: 10px;
+}
+.app-needed-txt {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: clamp(11px, 12px, 14px);
+}
+
+.bookings-table-headings {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: clamp(12px, 13px, 15px);
+}
+.bookings-table-body {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: clamp(11px, 12px, 14px);
+}
+.bookings-headings {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20% 20% 20% 20% 20% 20%;
+  gap: 1rem;
+}
+.bookings-table-list {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20% 20% 20% 20% 20% 20%;
+  gap: 1rem;
+}
+.bookings-table {
+  display: flex;
+  overflow: scroll;
+  flex-direction: column;
+}
+
+@media (max-width: 1000px) {
+  .bookings-inputs input,
+  .bookings-reset-btn,
+  .bookings-input,
+  .service-save-btn {
+    font-size: 1rem;
+  }
+}

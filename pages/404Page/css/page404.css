@@ -1,0 +1,47 @@
+.page-404 {
+  /* background-image: linear-gradient(180.04deg, #101828 1.28%, #0D1B37 99.81%, #0A1E46 99.96%); */
+  background-color: #0d1b37;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../../../files/404.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.page-404-title {
+  font-size: 10rem;
+  color: red;
+  font-family: "fira sans";
+  font-weight: 700;
+  letter-spacing: 2rem;
+}
+.page-404-text {
+  font-family: "fira sans";
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+}
+.page-404-btn {
+  background-color: #b695f8;
+  color: #0d1b37;
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 1rem;
+  min-height: 48px;
+  width: 100%;
+  margin-top: 1rem;
+}
+.page-404-header {
+  font-family: "fira sans";
+  font-weight: 500;
+  font-size: 2rem;
+  color: #b695f8;
+}
+.page-404-btn:hover {
+  background-color: #0d1b37;
+  color: #b695f8;
+  transition: 0.3s ease-in;
+}

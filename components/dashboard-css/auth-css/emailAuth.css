@@ -1,0 +1,141 @@
+.dashboard-page {
+  position: relative;
+  padding: 5px !important;
+  width: 100%;
+}
+
+.two-factor {
+  background: linear-gradient(
+    180.04deg,
+    #101828 1.28%,
+    #0d1b37 99.81%,
+    #0a1e46 99.96%
+  );
+  font-family: "Poppins";
+  font-weight: 700;
+  color: #fff;
+  font-size: 10px;
+}
+.tf {
+  border: 1px solid #0d1b37;
+  font-family: "Poppins";
+  font-size: 10px;
+  font-weight: 700;
+}
+.laptop-wrapper {
+  height: 28%;
+}
+.l-svg-wrapper {
+  left: 40%;
+}
+
+.auth-two {
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+.auth-two button {
+  background: linear-gradient(
+    180.04deg,
+    #101828 1.28%,
+    #0d1b37 99.81%,
+    #0a1e46 99.96%
+  );
+  color: #fff;
+  font-size: 12px;
+}
+
+.auth {
+  font-family: "Poppins";
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.email-text {
+  font-family: "Poppins";
+  color: #666666;
+  font-size: 11px;
+}
+
+.email-input {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.email-input input {
+  border: 1px solid #0e0227;
+  width: 90%;
+  height: 6vh;
+  border-radius: 10px;
+  margin-top: 5px;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+.send-btn button {
+  background: linear-gradient(
+    180.04deg,
+    #101828 1.28%,
+    #0d1b37 99.81%,
+    #0a1e46 99.96%
+  );
+  border-radius: 5px;
+  font-family: "fira sans";
+  font-weight: 500;
+  font-size: 0.85rem;
+}
+
+.otp-verification .otp-title {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.inputs input {
+  border: 1px solid #979797;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+.resend {
+  font-family: "Poppins";
+  font-size: 12px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.email-verify button {
+  background: linear-gradient(
+    180.04deg,
+    #101828 1.28%,
+    #0d1b37 99.81%,
+    #0a1e46 99.96%
+  );
+
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .main-grid-container {
+    display: block;
+    margin-left: 0;
+  }
+  .main-grid-container .two {
+    margin: 0;
+  }
+}
+@media (max-width: 1000px) {
+  .email-text {
+    font-size: 0.8rem;
+  }
+}

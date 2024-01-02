@@ -1,0 +1,177 @@
+.sign-up {
+  background-color: #fff;
+  border-radius: var(--size-2);
+  background-image: var(--primary-bg-color);
+  background-position: bottom;
+  background-size: 100% 20px;
+  background-repeat: no-repeat;
+  padding-bottom: 2rem;
+  width: 40%;
+  margin-bottom: 1rem;
+  color: #000;
+
+}
+
+.signup-container {
+  height: 85vh;
+}
+
+.sign-up .title {
+  font-family: "Fira Sans";
+  font-weight: bold;
+  font-size: var(--size-4);
+  color: linear-gradient(180.04deg,
+      #101828 1.28%,
+      #0d1b37 99.81%,
+      #0a1e46 99.96%);
+}
+
+.body-title {
+  font-size: var(--bigger-font-size);
+  color: var(--secondary-bg-color);
+}
+
+.sign-up-body {
+  font-family: var(--primary-font);
+}
+
+.sign-up-body label {
+  font-size: var(--primary-font-size);
+  font-weight: var(--primary-font-weight);
+}
+
+.sign-up-body input {
+  border: 1px solid var(--secondary-bg-color);
+  border-radius: 0.5rem;
+  height: var(--size-6);
+  width: 100%;
+  font-size: var(--secondary-font-size);
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+}
+
+.lower-sign-up p {
+  font-size: var(--secondary-font-size);
+  color: var(--secondary-bg-color);
+}
+
+.signup-one-lower {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--secondary-font-size);
+}
+
+.sign-up-btn {
+  background: var(--primary-bg-color);
+  color: #fff;
+
+  font-size: var(--secondary-font-size);
+  height: var(--size-6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.svg-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: var(--size-2);
+}
+
+.error-div {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--secondary-font-size);
+  color: red;
+}
+
+.notification-error {
+  background-color: blue !important;
+  font-family: "poppins" !important;
+  font-weight: 400;
+  border-radius: 0.5rem !important;
+}
+
+@media (max-width: 800px) {
+  .sign-up {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  /* .sign-up-body label {
+    font-size: 1rem;
+  }
+
+  .sign-up-body input {
+    font-size: 1rem;
+  }
+
+  .sign-up-btn {
+    font-size: 1.3rem;
+  }
+
+  .body-title {
+    font-size: 1.2rem;
+  }
+
+  .signup-one-lower p {
+    font-size: 1rem;
+  }
+
+  .sign-up svg {
+    transform: scale(1.5);
+  } */
+}
+
+@media (min-width: 1500px) {
+  .sign-up-body label {
+    font-size: 1rem;
+  }
+
+  .sign-up-body input {
+    font-size: 1rem;
+  }
+
+  .sign-up-btn {
+    font-size: 1.3rem;
+  }
+
+  .body-title {
+    font-size: 1.2rem;
+  }
+
+  .signup-one-lower p {
+    font-size: 1rem;
+  }
+
+  .sign-up svg {
+    transform: scale(1.5);
+  }
+}
+
+.add-error-border {
+  border: 1px solid red !important;
+}
+
+/* @media(max-height : 680px) {
+    .sign-up {
+        min-height: 100vh;
+    } 
+} */
+
+/* @media (max-width: 800px) and (max-height: 1024px) {
+    .sign-up {
+        min-height: 120vh;
+    }
+  } */
+/* @media (max-width: 800px) and (max-height: 750px) {
+    .sign-up {
+        height: 140vh;
+    }
+  } */

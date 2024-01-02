@@ -1,0 +1,334 @@
+body {
+  background: #f5f5f5;
+  color: #000;
+}
+
+body input:focus {
+  outline: none;
+}
+
+:root {
+  --primary-font: "poppins";
+  --secondary-font: 'fira sans';
+  --primary-font-weight: 500;
+  --secondary-font-weight: 400;
+  --third-font-weight: 300;
+  --bolder-font: 600;
+  --bold-font: 700;
+  --primary-font-size: 0.75rem;
+  --bigger-font-size: 2.3vmin;
+  --secondary-font-size: 0.7rem;
+  --third-font-size: 1.5vmin;
+
+}
+
+:root {
+  --primary-bg-color: linear-gradient(180.04deg,
+      #101828 1.28%,
+      #0d1b37 99.81%,
+      #0a1e46 99.96%);
+  --secondary-bg-color: #979797;
+  --third-bg-color: #b695f8;
+  --fourth-bg-color: #F8F0E7;
+  --fifth-bg-color: #E6F2E2;
+  --sixth-bg-color: #F9E8E8;
+  --seventh-bg-color: #EEF0F8;
+  --color-8: #101828;
+  --color-9: #666;
+  --color-10: #2A2A2A;
+  --primary-shadow: box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+:root {
+  --size-0-5: 0.5vmin;
+  --size-1: 1vmin;
+  --size-1-5: 1.5vmin;
+  --size-2: 1rem;
+  --size-2-5: 1.1rem;
+  --size-3: 3vmin;
+  --size-3-5: 1.3rem;
+  --size-4: 1.5rem;
+  --size-4-5: 2rem;
+  --size-5: 2rem;
+  --size-5-5: 5.5vmin;
+  --size-6: 2.5rem;
+  --size-6-5: 6.5vmin;
+  --size-7: 7vmin;
+  --size-7-5: 7.5vmin;
+  --size-8: 8vmin;
+  --size-8-5: 8.5vmin;
+  --size-9: 9vmin;
+  --size-9-5: 9.5vmin;
+  --size-10: 10vmin;
+  --size-10-5: 10.5vmin;
+  --size-11: 11vmin;
+  --size-11-5: 11.5vmin;
+  --size-12: 12vmin;
+  --size-12-5: 12.5vmin;
+  --size-13: 5rem;
+  --size-13-5: 13.5vmin;
+  --size-14: 14vmin;
+  --size-14-5: 14.5vmin;
+  --size-15: 15vmin;
+  --size-15-5: 15.5vmin;
+  --size-16: 16vmin;
+  --size-16-5: 16.5vmin;
+  --size-17: 17vmin;
+  --size-17-5: 17.5vmin;
+  --size-18: 18vmin;
+  --size-18-5: 18.5vmin;
+  --size-19: 19vmin;
+  --size-19-5: 19.5vmin;
+  --size-20: 20vmin;
+  --size-20-5: 20.5vmin;
+  --size-21: 21vmin;
+  --size-21-5: 21.5vmin;
+  --size-22: 22vmin;
+  --size-22-5: 22.5vmin;
+  --size-23: 23vmin;
+  --size-23-5: 23.5vmin;
+  --size-24: 24vmin;
+  --size-24-5: 24.5vmin;
+  --size-25: 10rem;
+  --size-25-5: 25.5vmin;
+  --size-26: 26vmin;
+  --size-26-5: 26.5vmin;
+  --size-27: 27vmin;
+  --size-27-5: 27.5vmin;
+  --size-28: 28vmin;
+  --size-28-5: 28.5vmin;
+  --size-29: 29vmin;
+  --size-29-5: 29.5vmin;
+  --size-30: 30vmin;
+  --size-30-5: 30.5vmin;
+  --size-31: 31vmin;
+  --size-31-5: 31.5vmin;
+  --size-32: 32vmin;
+  --size-32-5: 32.5vmin;
+  --size-33: 33vmin;
+  --size-33-5: 33.5vmin;
+  --size-34: 34vmin;
+  --size-34-5: 34.5vmin;
+  --size-35: 35vmin;
+  --size-35-5: 35.5vmin;
+  --size-36: 36vmin;
+  --size-36-5: 36.5vmin;
+  --size-37: 37vmin;
+  --size-37-5: 37.5vmin;
+  --size-38: 38vmin;
+  --size-38-5: 38.5vmin;
+  --size-39: 39vmin;
+  --size-39-5: 39.5vmin;
+  --size-40: 40vmin;
+  --size-40-5: 40.5vmin;
+  --size-41: 41vmin;
+  --size-41-5: 41.5vmin;
+  --size-42: 42vmin;
+  --size-42-5: 42.5vmin;
+  --size-43: 43vmin;
+  --size-43-5: 43.5vmin;
+  --size-44: 44vmin;
+  --size-44-5: 44.5vmin;
+  --size-45: 45vmin;
+  --size-45-5: 45.5vmin;
+  --size-46: 46vmin;
+  --size-46-5: 46.5vmin;
+  --size-47: 47vmin;
+  --size-47-5: 47.5vmin;
+  --size-48: 48vmin;
+  --size-48-5: 48.5vmin;
+  --size-49: 49vmin;
+  --size-49-5: 49.5vmin;
+  --size-50: 50vmin;
+}
+
+
+.header-title {
+  font-family: "Fira Sans";
+  font-weight: 700;
+  font-size: 4.2vmin;
+  margin-left: 60px;
+  margin-top: 5px;
+  color: linear-gradient(180.04deg,
+      #101828 1.28%,
+      #0d1b37 99.81%,
+      #0a1e46 99.96%);
+}
+
+.fira-sans {
+  font-family: "Fira Sans";
+  font-weight: bold;
+  font-size: 30px;
+  color: linear-gradient(180.04deg,
+      #101828 1.28%,
+      #0d1b37 99.81%,
+      #0a1e46 99.96%);
+}
+
+.react-notification {
+  top: 50% !important;
+  transform: translateY(-50%);
+}
+
+.add-p-side {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 999;
+  top: 0;
+}
+
+.react-date-picker__wrapper {
+  border-radius: 5px;
+  border: 1px solid var(--secondary-bg-color) !important;
+  height: 40px;
+}
+
+.width-40 {
+  width: 40% !important;
+}
+
+.header {
+  height: 10vh;
+}
+
+.confirmation-modal {
+  font-family: 'poppins';
+}
+
+.z-index {
+  z-index: 999999;
+}
+
+@media (max-width: 769px) {
+  .header h1 {
+    margin-left: 1.2rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .tab-font {
+    font-size: 1rem;
+  }
+}
+
+/* Styles for screens less than 500px */
+@media (max-width: 500px) {
+
+  /* Hide the main content */
+  body {
+    overflow: hidden;
+  }
+
+  /* Show the modal */
+  .mobile-modal {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0d1b37;
+    background-image: url("./files/404.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+
+    z-index: 9999;
+    font-size: 24px;
+    font-family: "fira sans";
+    font-weight: 500;
+  }
+}
+
+.social-btn {
+  width: 200px;
+  height: 60px;
+  border-radius: 0.5rem;
+}
+
+/* Styles for screens 500px and larger */
+
+/* toastify-custom-styles.css */
+.Toastify__toast {
+  font-family: "poppins" !important;
+  font-weight: 500;
+  font-size: 0.8rem;
+  /* Change "Your Desired Font" to your chosen font name */
+}
+
+
+@media (min-width: 501px) {
+  .mobile-modal {
+    display: none;
+    /* Hide the modal */
+  }
+}
+
+
+.ann-btn {
+  background: var(--primary-bg-color);
+  color: #fff;
+  font-family: var(--secondary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+  height: var(--size-6);
+}
+
+.secondary-btn {
+  background-color: #b695f8;
+  color: #fff;
+  font-family: var(--secondary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+  height: var(--size-6);
+}
+
+.synkli-logo {
+  height: 80px;
+  transform: scale(0.60);
+  width: 150px;
+}
+
+.driver-popover {
+  background: linear-gradient(180.04deg,
+      #101828 1.28%,
+      #0d1b37 99.81%,
+      #0a1e46 99.96%) !important;
+}
+
+.driver-popover-title {
+  font-family: "Poppins" !important;
+  color: #fff;
+  font-weight: 500 !important;
+  font-size: var(--size-2) !important;
+}
+
+.driver-popover-arrow {
+  color: #fff !important;
+  background-color: #fff !important;
+
+}
+
+
+.driver-popover-description {
+  font-family: "Poppins" !important;
+  color: #d2caca;
+  font-size: var(--primary-font-size) !important;
+  font-weight: 300 !important;
+}
+
+/* 
+.driver-popover-footer {} */
+
+.driver-popover-progress-text {
+  color: #b695f8 !important;
+}
+
+/* 
+.driver-popover-prev-btn {} */

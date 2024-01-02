@@ -1,0 +1,10 @@
+.email-templates-table-heading {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: clamp(12px, 13px, 15px);
+}
+.email-templates-table-body {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: clamp(12px, 13px, 15px);
+}

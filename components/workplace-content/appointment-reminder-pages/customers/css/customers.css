@@ -1,0 +1,64 @@
+.customers-operations .add-client-btn {
+  background: linear-gradient(
+    180.04deg,
+    #101828 1.28%,
+    #0d1b37 99.81%,
+    #0a1e46 99.96%
+  );
+  color: #fff;
+  font-family: "fira sans";
+  font-weight: 500;
+  font-size: 0.7rem;
+  min-height: 5vh;
+  border-radius: 8px;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.customers-table .early-label {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+.customers-grid {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 0.75rem;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20% 20% 20% 20% 20% 20%;
+}
+.customers-table-body {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20% 20% 20% 20% 20% 20%;
+}
+.customer-table-text {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+.appointment-number {
+  background-color: #b695f8;
+  color: #fff;
+  border-radius: 50%;
+  padding: 3px 8px;
+  font-size: 0.75em;
+}
+
+.customers-table {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+.my-customer-line {
+  width: 200%;
+}
+
+@media (max-width: 1000px) {
+  .customers-operations .add-client-btn {
+    font-size: 1rem;
+  }
+  .customers-operations svg {
+    transform: scale(1.4);
+  }
+}

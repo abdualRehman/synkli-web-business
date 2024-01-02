@@ -1,0 +1,123 @@
+.add-booking-cards {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 10px;
+  height: 80vh;
+  background-color: #fff;
+  border-radius: 1%;
+}
+.add-booking-card-one {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+.add-booking-card-one::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  width: 3px;
+  border-radius: 10px;
+}
+
+.add-booking-card-one::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+}
+
+.add-booking-card-one::-webkit-scrollbar {
+  height: 1px;
+  width: 3px;
+}
+
+.add-booking-card-one select {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: clamp(11px, 12px, 14px);
+}
+.add-booking-card-one input {
+  border: 1px solid #979797;
+  border-radius: 8px;
+  min-height: 6vh;
+  width: 100%;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: clamp(11px, 12px, 14px);
+  padding: 0 10px;
+}
+
+.add-booking-muted-text {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: clamp(9px, 10px, 12px);
+  color: #666;
+}
+
+.add-booking-save-btn {
+  background: linear-gradient(
+    180.04deg,
+    #101828 1.28%,
+    #0d1b37 99.81%,
+    #0a1e46 99.96%
+  );
+  color: #fff;
+  font-family: "fira sans";
+  font-weight: 500;
+  font-size: clamp(0.75rem, 0.8rem, 1rem);
+  border-radius: 8px;
+  min-height: 6vh;
+  padding: 0 20%;
+}
+.add-booking-card-two {
+  width: 98%;
+  height: 100%;
+}
+.add-booking-calender-date-toggle {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: clamp(0.75rem, 0.8rem, 1rem);
+  border: 1px solid #979797;
+  border-radius: 10px;
+  min-height: 6vh;
+  padding: 0 3%;
+}
+.add-booking-calendar-header .new-button {
+  background-color: #b695f8;
+  color: #fff;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: clamp(0.7rem, 0.75rem, 1rem);
+  height: 4vh;
+  padding: 0 20px;
+  border-radius: 10px;
+}
+
+.add-booking-calendar-header .existing-button {
+  background: linear-gradient(
+    180.04deg,
+    #101828 1.28%,
+    #0d1b37 99.81%,
+    #0a1e46 99.96%
+  );
+  color: #fff;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: clamp(0.7rem, 0.75rem, 1rem);
+  height: 4vh;
+  padding: 0 20px;
+  border-radius: 10px;
+}
+
+.add-booking-calendar-header .display-date {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: clamp(0.7rem, 0.75rem, 1rem);
+  text-decoration: underline;
+}
+.add-booking-calendar-body {
+  max-height: 100%;
+}
+@media (max-width: 1000px) {
+  .add-booking-cards {
+    display: block;
+  }
+  .add-booking-calendar-body {
+    height: 100vh;
+  }
+}

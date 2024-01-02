@@ -1,0 +1,287 @@
+.my-threads {
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+.my-threads::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 10px;
+}
+
+.my-threads::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.my-threads::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+}
+
+.my-thread {
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 5px;
+  overflow: hidden;
+}
+
+.my-thread-image-wrapper {
+  height: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+  width: 40px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+.my-thread-content {
+  margin-left: 7%;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  padding-right: 1rem;
+}
+
+.my-thread-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.my-thread-name {
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+.my-thread-date {
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--secondary-font-size);
+  color: #979797;
+}
+
+.my-thread-title {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+.my-thread-description {
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+.my-thread-comment-btns button {
+  background-color: #ddd9d9;
+  border-radius: 15px;
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+.my-thread-comment-btns {
+  margin-left: 6%;
+}
+
+.commentor-image-wrapper {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.commentor-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.my-thread-comment {
+  margin-left: 6%;
+  transition: 0.7s ease-in;
+}
+
+.thread-download {
+  margin-left: 6%;
+}
+
+.no-thread-wrapper {
+  height: 70vh;
+}
+
+.no-thread-text {
+  font-family: "Fira Sans";
+  font-weight: 500;
+  font-size: clamp(12px, 14px, 16px);
+  color: #979797;
+}
+
+.detail-comment-btn {
+  margin-left: 0;
+}
+
+.thread-comment {
+  margin-left: 6%;
+}
+
+.reply-input-wrapper {
+  border: 1px solid #979797;
+  border-radius: 10px;
+  height: var(--size-6);
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.reply-input {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.reply-input:focus {
+  outline: none;
+}
+
+.reply-btn {
+  background: var(--primary-bg-color);
+  color: white;
+  font-family: var(--secondary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+  height: var(--size-6);
+}
+
+.reply-file-icon {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.thread-description-wrapper {
+  min-height: 30vh;
+  position: relative;
+}
+
+.description-modal {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--secondary-font-size);
+  background-color: white;
+  border-radius: 10px;
+
+  position: absolute;
+  right: 10px;
+  bottom: 35px;
+}
+
+.description-modal-section {
+  padding: 0.2rem;
+}
+
+.description-modal-section:hover {
+  background-color: #b695f8;
+  cursor: pointer;
+  color: #fff;
+}
+
+.description-modal-section:hover svg {
+  fill: white;
+}
+
+.desc-selected-docs {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}
+
+.desc-selected-docs button {
+  background-color: #b695f8;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.thread-modal {
+  position: absolute;
+  right: 30px;
+  top: 10px;
+  background-color: white;
+
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+.thread-modal-item:hover {
+  background-color: #b695f8;
+  color: white;
+  cursor: pointer;
+}
+
+.thread-modal-svg:hover svg {
+  fill: white;
+}
+
+@media screen and (min-width: 1000px) and (max-height: 649px) {
+  .comment-reply-container {
+    padding: 0 30px 0 10px;
+  }
+}
+
+/* 
+@media screen and (min-width: 1350px) {
+  .my-thread-name {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 80%;
+  }
+
+  .my-thread-date {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 60%;
+    color: #979797;
+  }
+
+  .my-thread-title {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 75%;
+  }
+
+  .my-thread-description {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 11px;
+  }
+} */
+
+
+@media (max-width: 768px) {
+  .my-thread-content {
+    margin-left: 10%;
+  }
+}
+
+.add-thread-btn {
+  font-family: var(--secondary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+  background: var(--primary-bg-color);
+  height: var(--size-6);
+  color: #fff;
+}
+
+.thread-dec-wraper {
+  border: 1px solid #979797;
+  border-radius: 0.5rem;
+}

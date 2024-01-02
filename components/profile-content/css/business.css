@@ -1,0 +1,207 @@
+.business-label {
+  font-family: var(--primary-font);
+  font-weight: var(--bolder-font);
+  font-size: var(--primary-font-size) !important;
+}
+
+.business-card {
+  background-color: white;
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 10px;
+}
+
+.my-business-img-wrap {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.business-img-wrap {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+/* .business-image-wrapper {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.business-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+} */
+
+.business-title {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--size-2-5);
+}
+
+.top-business {
+  width: 100%;
+}
+
+.bottom-business {
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  margin-top: 0.5rem;
+  font-size: var(--primary-font-size) !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.business-bar {
+  background-color: white;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  min-height: 6vh;
+}
+
+@media (max-width: 470px) {
+  .business-bar {
+    gap: 0.5rem;
+    font-size: 10px;
+  }
+}
+
+.business-bar {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size) !important;
+  color: var(--secondary-bg-color);
+}
+
+.bar-heading {
+  box-sizing: border-box;
+}
+
+.add-border {
+  border-bottom: 2px solid rgb(3, 3, 30);
+  padding-bottom: 1px;
+  margin-top: 5px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+/* @media screen and (min-width: 1000px) and (max-height: 649px) {
+    .business-label {
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 14px;
+    }
+    
+    .business-card {
+        background-color: white;
+        width: 100%;
+        height: 14vh;
+        border-radius: 10px;
+    }
+
+    .business-image-wrapper {
+    
+        height: 11vh;
+
+        width: 130%;
+    }
+    .business-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .business-title {
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 14px;
+        margin-left: 10px;
+    }
+    
+    .top-business {
+        width: 100%;
+    }
+    .bottom-business {
+        font-family: 'Poppins';
+        font-weight: 400;
+        height: 40%;
+        margin-left: 10px;
+        margin-top: 15px;
+        font-size: 12px;
+        display: flex ;
+        justify-content: space-between;
+        align-items: end;
+        gap: 35px;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+  
+    .business-bar {
+        background-color: white;
+        border-radius: 10px;
+        width: 100%;
+        height: 6vh;
+    }
+    
+    .business-bar {
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 10px;
+        color: #979797;
+    }
+    
+    .bar-heading {
+        box-sizing: border-box;
+    }
+
+  } */
+
+
+.business-infor-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* Wrap items onto the next line on small screens */
+  gap: 1rem;
+}
+
+.busness-infor-div1 {
+  flex: 1;
+  /* This will take up 1/2 of the container width on large screens */
+  width: 15%;
+  /* Set a default width of 10% for div1 */
+  background-color: #f0f0f0;
+
+  box-sizing: border-box;
+}
+
+.business-infor-div2 {
+  flex: 1;
+  /* This will take up 1/2 of the container width on large screens */
+  width: 85%;
+  
+  /* Set a default width of 90% for div2 */
+
+
+  box-sizing: border-box;
+}
+
+@media (max-width: 808px) {
+
+  /* On screens with a max-width of 768px or less (typically mobile), override the widths */
+  .business-infor-container {
+    flex-direction: column;
+  }
+
+  .busines-infor-div1, .business-infor-div2 {
+    width: 100%;
+    /* Both divs take up 100% width on small screens */
+  }
+}

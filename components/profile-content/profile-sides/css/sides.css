@@ -1,0 +1,156 @@
+.bio-description label {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size) !important;
+}
+
+.bio-description textarea {
+  width: 100%;
+  border: 1px solid var(--secondary-bg-color);
+  border-radius: 10px;
+  margin-top: 5px;
+  padding: 5px;
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size) !important;
+}
+
+.bio-btn {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.add-service-bottom {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+.image-container {
+  position: relative;
+  height: 70px;
+  width: 80px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.image-actions-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  top: 0;left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  position: absolute;
+}
+.galery-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* .image-container:hover .galery-image {
+  scale: 1.3;
+  transition: 0.7s ease-in;
+} */
+
+
+
+.images-list {
+  height: 36vh;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.images-list::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 10px;
+}
+
+.images-list::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.images-list::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+}
+
+.workplace-photos {
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+
+
+.add-image {
+  border-radius: 0.5rem;
+  border: 1px solid #979797;
+  height: 70px;
+  width: 80px;
+}
+
+.in-view-container {
+  height: 32vh;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.view-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.view-image:hover {
+  scale: 1.3;
+  transition: 0.7s ease-in;
+}
+
+.in-view {
+  overflow-y: scroll;
+}
+
+.in-view::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 10px;
+}
+
+.in-view::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.in-view::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+}
+
+@media screen and (min-width: 1000px) and (max-height: 649px) {
+
+
+  .add-image svg {
+    transform: scale(0.75);
+  }
+}
+
+@media (max-width: 1000px) {
+
+  .bio-description label,
+  .bio-description textarea,
+  .bio-btn {
+    font-size: 1rem;
+  }
+
+  .work-photos {
+    display:
+      block;
+  }
+}

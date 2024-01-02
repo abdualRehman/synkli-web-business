@@ -1,0 +1,13 @@
+.scroler-component::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 10px;
+}
+
+.scroler-component::-webkit-scrollbar-thumb {
+    background: var(--primary-bg-color);
+    border-radius: 10px;
+}
+
+.scroler-component::-webkit-scrollbar-thumb:hover {
+    background-color: #aaa;
+}

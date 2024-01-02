@@ -1,0 +1,134 @@
+.security-questions {
+  background-color: #fff;
+  border-radius: 15px;
+  background-image: var(--primary-bg-color);
+  background-position: bottom;
+  background-size: 100% 20px;
+  background-repeat: no-repeat;
+  padding-bottom: 2rem;
+  width: 40%;
+}
+
+.q1-select {
+  -webkit-appearance: none;
+  border: 1px solid var(--secondary-bg-color);
+  height: var(--size-6);
+  width: 100%;
+  border-radius: 10px;
+  font-size: var(--primary-font-size);
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  background-image: url("/public/vector.png");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+
+  background-size: 12px 8px;
+  color: black;
+
+  background-color: white;
+}
+
+.q1-select option {
+  border: 1px solid var(--secondary-bg-color);
+
+  width: 100%;
+  border-radius: 10px;
+  font-size: var(--primary-font-size);
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+}
+
+/* Use the filter property to change the color of the icon */
+.q1-select::-ms-expand {
+  filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg);
+}
+
+.q1-select::after {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+}
+
+.security-questions .title {
+  font-family: "Fira Sans";
+  font-weight: bold;
+  font-size: 30px;
+  color: var(--primary-bg-color);
+}
+
+.security-info {
+  font-family: var(--primary-font);
+  font-size: var(--primary-font-size);
+  font-weight: var(--secondary-font-weight);
+  color: var(--color-9);
+}
+
+.q1 h1 {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+}
+
+.label-div {
+  border: 1px solid var(--secondary-bg-color);
+  border-radius: 10px;
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+.q1-input {
+  margin-top: 6px;
+}
+
+.q1-input input {
+  border: 1px solid var(--secondary-bg-color);
+  border-radius: 10px;
+  font-family: var(--primary-font);
+  width: 100%;
+  height: var(--size-6);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--secondary-font-size);
+}
+
+/* 
+    Zamam123 */
+
+@media (max-width: 1000px) {
+  .security-questions {
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  /* 
+  .q1-select,
+  .q1-select option {
+    font-size: 1rem;
+  }
+
+  .security-questions {
+    font-size: 1.2rem;
+  }
+
+  .security-info {
+    font-size: 1rem;
+  } */
+}
+
+@media (max-width: 1170px) {
+  .security-body {
+    padding: 2.5rem;
+  }
+
+  .security-qa {
+    padding: 0 2rem;
+  }
+
+  .sq-btns {
+    margin: 1rem 2rem;
+  }
+}
+
+/* .four-svg-wrapper {
+  margin-bottom: 2rem;
+} */

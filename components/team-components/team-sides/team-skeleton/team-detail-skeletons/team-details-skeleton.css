@@ -1,0 +1,30 @@
+.details-skeleton {
+    animation: loading 1.5s infinite;
+}
+.team-detail-skeleton {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: loading 1.5s infinite;
+    
+}
+.team-details-skeleton-name{
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    height: 2vh;
+    width: 120px;
+    border-radius: 0.5rem;
+    animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+    0% {
+      background-position: -200% 0;
+      transform: scale(0.98);
+    }
+    100% {
+      background-position: 200% 0;
+      transform: scale(1);
+    }
+  }

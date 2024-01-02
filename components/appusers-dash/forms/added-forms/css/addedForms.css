@@ -1,0 +1,64 @@
+.add-form-route {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+.prebuilt-search-wrapper {
+  width: 100%;
+  height: var(--size-6);
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #979797;
+}
+
+.prebuilt-icon-wrapper {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.prebuilt-input-wrapper {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 0 7%;
+}
+
+.prebuilt-forms {
+  height: 75vh;
+  overflow-y: scroll;
+}
+
+.prebuilt-forms::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 10px;
+}
+
+.prebuilt-forms::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.prebuilt-forms::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+}
+
+.prebuilt-form-heading {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size)
+}
+
+.prebuilt-form-text {
+  font-family: var(--primary-font);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--secondary-font-size);
+
+}

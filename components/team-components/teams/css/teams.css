@@ -1,0 +1,113 @@
+.invited-team {
+  font-family: var(--primary-font) !important;
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+
+  position: relative;
+}
+
+.team-line {
+  border-top: 1px solid #bbb;
+}
+
+.team-members {
+  font-family: var(--primary-font) !important;
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--primary-font-size);
+
+}
+
+
+
+.invited-team-wrapper {
+  display: flex;
+  overflow: scroll;
+  flex-direction: column;
+}
+
+
+.invited-team-wrapper::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 10px;
+  height: 3px;
+}
+
+.invited-team-wrapper::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.invited-team-wrapper::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+}
+
+
+.team-members .flex-1 {
+  overflow: hidden;
+}
+
+.team-profile-image-wrapper {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.member-image-table {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* @media (max-width: 1000px) {
+  .tab-table {
+    width: 200%;
+    overflow-x: scroll;
+  }
+
+  .invited-team,
+  .team-members {
+
+    width: 100%;
+
+  }
+
+  .team-content {
+    margin-top: 1rem;
+  }
+} */
+
+@media (max-width: 750px) {
+  .invited-team {
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 11px;
+    display: grid;
+    grid-template-columns: 30% 30% 30% 30% 30% 30% 30%;
+    gap: 0.5rem;
+  }
+
+  .team-members {
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 11px;
+    padding: 0.5rem 0;
+    display: grid;
+    grid-template-columns: 30% 30% 30% 30% 30% 30% 30%;
+    gap: 0.5rem;
+  }
+
+  .team-streched-line {
+    width: 220%;
+  }
+}
+
+
+.invitedLoader {
+  height: 100%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: scale(1.5);
+}

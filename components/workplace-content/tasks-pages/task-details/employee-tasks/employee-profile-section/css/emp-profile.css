@@ -1,0 +1,55 @@
+.profile-image-section {
+    height: 15vmin;
+    width: 15vmin;
+    border-radius: 2.5vmin;
+    overflow: hidden;
+}
+
+.profile-section-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-section-line {
+    width: 15vmin;
+}
+
+.profile-section-info {
+    font-family: var(--primary-font);
+    font-weight: var(--primary-font-weight);
+    font-size: var(--primary-font-size);
+}
+
+.profile-number-card {
+    background-color: var(--fourth-bg-color);
+    border-radius: 1.5vmin;
+}
+
+.profile-number-card-title {
+    font-family: var(--primary-font);
+    font-weight: var(--primary-font-weight);
+    font-size: var(--primary-font-size);
+}
+
+.profile-number-card-number {
+    font-family: var(--primary-font);
+    font-weight: var(--primary-font-weight);
+    font-size: var(--bigger-font-size);
+}
+
+.profile-number-card-two {
+    background-color: var(--fifth-bg-color);
+    border-radius: 1.5vmin;
+}
+
+.profile-number-card-three {
+    background-color: var(--sixth-bg-color);
+    border-radius: 1.5vmin;
+}
+
+.completed-task-type-strip {
+    font-family: var(--primary-font);
+    font-weight: var(--primary-font-weight);
+    font-size: var(--primary-font-size);
+}

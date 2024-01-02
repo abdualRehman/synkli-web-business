@@ -1,0 +1,16 @@
+.sub-text {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 11px;
+}
+
+.card-container {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 11px;
+}
+.card-container input {
+  border: 1px solid #979797;
+
+  height: 42px;
+}

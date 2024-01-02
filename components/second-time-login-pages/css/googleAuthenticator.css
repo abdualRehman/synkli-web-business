@@ -1,0 +1,58 @@
+.google-authenticator {
+  background-color: #fff;
+  border-radius: 15px;
+  background-image: linear-gradient(
+    180.04deg,
+    #101828 1.28%,
+    #0d1b37 99.81%,
+    #0a1e46 99.96%
+  );
+  background-position: bottom;
+  background-size: 100% 20px;
+  background-repeat: no-repeat;
+  min-height: 85vh;
+  width: 38%;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.authenticator-title h1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.authenticator-text {
+  font-family: "Poppins";
+  font-weight: 400;
+  color: #666666;
+  font-size: 12px;
+}
+input {
+  font-family: "Poppins";
+  font-weight: 500;
+}
+
+.verify-section button {
+  background: linear-gradient(
+    180.04deg,
+    #101828 1.28%,
+    #0d1b37 99.81%,
+    #0a1e46 99.96%
+  );
+  color: #fff;
+  font-family: "Poppins";
+}
+
+.verify-section p {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .google-authenticator {
+    width: 100%;
+  }
+}

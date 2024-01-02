@@ -1,0 +1,1 @@
+export const PAGINATION_PAGE_SIZE = process.env.REACT_APP_PAGINATION_PAGE_SIZE;

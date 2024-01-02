@@ -1,0 +1,50 @@
+.payroll-reports-cards {
+  display: grid;
+  grid-template-columns: 72% 25%;
+  gap: 1rem;
+}
+.payroll-reports-left-cards {
+  display: grid;
+  grid-template-columns: 20% 78%;
+  gap: 1rem;
+}
+.payroll-left-circle {
+  box-sizing: border-box;
+  min-height: 21vh;
+  width: 90%;
+  border-radius: 50%;
+  border: 1rem solid rgb(1, 1, 28);
+}
+
+.payroll-middle-card {
+  background-color: #b695f8;
+  color: #fff;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+.payroll-middle-title {
+  font-family: "poppins";
+  font-weight: 300;
+  font-size: 0.8rem;
+}
+.payroll-middle-dollars {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.report-right-title {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: rgb(3, 3, 40);
+}
+.payroll-right-body {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 0.75rem;
+}
+.payroll-table-head {
+  font-family: "poppins";
+  font-weight: 500;
+  font-size: 0.85rem;
+}

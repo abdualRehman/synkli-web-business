@@ -1,0 +1,223 @@
+.add-app-btn {
+  background: var(--primary-bg-color);
+  font-family: var(--secondary-font);
+  font-size: var(--primary-font-size);
+  font-weight: var(--primary-font-weight);
+  color: #fff;
+  height: var(--size-6);
+  border-radius: 0.5rem;
+}
+
+.remove-app-btn {
+  border: 1px solid #979797;
+  font-family: var(--primary-font);
+  font-size: var(--primary-font-size);
+  font-weight: var(--primary-font-weight);
+  color: #979797;
+
+  border-radius: 5px;
+}
+
+.app-jumbo {
+  position: relative;
+}
+
+.uploading-img-wrapper {
+
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  background-color: #b695f8;
+  border-radius: 0.5rem;
+}
+
+.image-style {
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.apps-list {
+  overflow-y: scroll;
+  height: 75vh;
+}
+
+.app-name {
+  position: absolute;
+  bottom: 10px;
+  font-family: "Fira Sans";
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.apps-list::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 10px;
+}
+
+.apps-list::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.apps-list::-webkit-scrollbar-thumb:hover {
+  background-color: #aaa;
+}
+
+.app-radio {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.app-container {
+  border-radius: 0.5rem;
+}
+
+.app-tag {
+  border-radius: 0.5rem;
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+@media screen and (min-width: 1000px) and (max-height: 649px) {
+  .app-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.apps-check-container {
+  display: flex;
+  align-items: center;
+}
+
+.apps-check-label {
+  position: relative;
+  padding-left: 15px;
+  cursor: pointer;
+  font-size: 12px;
+  user-select: none;
+}
+
+.apps-check-checkbox {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.apps-check-custom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 1px solid #979797;
+}
+
+.apps-check-custom::after {
+  content: "\2713";
+  /* Unicode character for check mark */
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 16px;
+  color: white;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.apps-check-label:hover .apps-check-custom {
+  border-color: blueviolet;
+}
+
+.apps-check-checkbox:checked~.apps-check-custom {
+  background-color: blueviolet;
+  border-color: blueviolet;
+}
+
+.apps-check-checkbox:checked~.apps-check-custom::after {
+  opacity: 1;
+}
+
+.app-burger {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  cursor: pointer;
+}
+
+.upload-app-wrapper {
+  width: 100px;
+  height: 100px;
+  background-color: #ebe6f4;
+  border: 1px dashed #b695f8;
+  border-radius: 50%;
+}
+
+.upload-app-label {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.add-app-camera-text {
+  font-family: var(--primary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+.rounded-check {
+  border-radius: 0.5rem;
+}
+
+.app-image-wrap {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  aspect-ratio: 1/1;
+}
+
+.app-image-w {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+.app-wrap {
+  background-color: #ffffff;
+  font-family: var(--secondary-font);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.app-title {
+  font-family: var(--secondary-font);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+}
+.thumbnail-wrapper {
+  background-color: #b695f8;
+   border-radius: 0.5rem;
+   overflow: hidden;
+}
+
+.thumbnail-image {
+  width: 70px;
+  height: 70px;
+
+}

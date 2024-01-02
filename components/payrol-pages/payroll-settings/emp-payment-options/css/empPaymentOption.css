@@ -1,0 +1,10 @@
+.mised-input-style {
+  font-family: "poppins";
+  font-weight: 400;
+  font-size: 0.75rem;
+  border: 1px solid #979797;
+  border-radius: 0.5rem;
+  min-height: 6vh;
+  width: 100%;
+  padding: 0 0.5rem;
+}
